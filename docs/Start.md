@@ -21,10 +21,10 @@ The documentation is also available as a [JSON](/files/api_json.zip) and as a [L
 :::info note
 This documentation is for Scrap Mechanic Version <strong>0.6.0 or later</strong>.
 
-The <strong>previous documentation</strong> for Scrap Mechanic Version <strong>0.5.1</strong> can be found [here](https://scrapmechanicmaps.com/archive/Lua_051/).
+The <strong>previous documentation</strong> for Scrap Mechanic Version <strong>0.5.1</strong> is no longer available, as the content was not preserved.
 
 If you encounter any errors, malfunctions, broken links or missing information, please <br></br>
-report them in the [ScrapMechanicMaps Discord Server](https://discord.gg/2eACct5FDm).
+report them to niknal in the [MTech Discord Server](https://discord.gg/wEWrDn4qWF).
 :::
 
 ### Console
