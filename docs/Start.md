@@ -11,6 +11,8 @@ slug: /
 Welcome! <br></br>
 This is an improved version of the Scrap Mechanic Lua API Reference at https://scrapmechanic.com/api/index.html. <br></br>
 
+An compiled version of this website will always be available [here](https://github.com/niknal357/sm-docu). <br></br>
+
 In this documentation, you will find details specific to Scrap Mechanic's Lua scripting. <br></br>
 For more general information on how the Lua scripting language works, you can review the official Lua documentation. <br></br>
 
