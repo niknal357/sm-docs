@@ -34,13 +34,6 @@ export default function Home(): JSX.Element {
       title={`SM Docs`}
       description="Website to describe all you need to know about the Scrap Mechanic modding API.">
       <HomepageHeader />
-      <>
-        {/* Your existing code */}
-        <DocSearch
-          appId="NNH0JJX9RD"
-          apiKey="f0ce6b5dcf56169c8b8372d051e46631"
-          indexName="scrapmechanicdocs" />
-      </>
     </Layout>
   );
 }

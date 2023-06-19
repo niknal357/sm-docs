@@ -69,12 +69,6 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      algolia: {
-        appId: 'NNH0JJX9RD',
-        apiKey: 'f0ce6b5dcf56169c8b8372d051e46631',
-        indexName: 'scrapmechanicdocs',
-        contextualSearch: true,
       }
     }),
 };
