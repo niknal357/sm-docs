@@ -37,6 +37,11 @@ effect:bindEventCallback( methodName, params, reference )
 
 Bind a Lua callback to be triggered by the effect.
 
+The callback receives:
+
+- <code>eventName</code> [<strong> string </strong>]: The name of the event.
+- <code>params</code> [<strong> any </strong>]: Parameter object passed to the callback.
+
 <strong>Arguments:</strong> <br></br>
 
 - <code>effect</code> [<strong> effect </strong>]: The effect.

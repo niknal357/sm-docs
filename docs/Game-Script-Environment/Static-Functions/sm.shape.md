@@ -137,6 +137,24 @@ Returns the color of the uuid's shape type.
 
 ---
 
+### getIsHarvest
+
+```lua
+sm.shape.getIsHarvest( uuid )
+```
+
+Returns whether the uuid belongs to a harvestable shape.
+
+<strong>Arguments:</strong> <br></br>
+
+- <code>uuid</code> [<strong> uuid </strong>]: The item uuid.
+
+<strong>Returns:</strong> <br></br>
+
+- [<strong> bool </strong>]: Whether the shape is harvestable or not.
+
+---
+
 ### uuidExists
 
 ```lua

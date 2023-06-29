@@ -25,8 +25,7 @@ This documentation is for Scrap Mechanic Version <strong>0.6.0 or later</strong>
 
 The <strong>previous documentation</strong> for Scrap Mechanic Version <strong>0.5.1</strong> is no longer available, as the content was not preserved.
 
-If you encounter any errors, malfunctions, broken links or missing information, please <br></br>
-report them to niknal in the [MTech Discord Server](https://discord.gg/wEWrDn4qWF).
+If you encounter any errors, malfunctions, broken links or missing information, please report them [here](https://github.com/niknal357/sm-docu/issues).
 :::
 
 ### Console

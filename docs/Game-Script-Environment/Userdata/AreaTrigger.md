@@ -136,7 +136,7 @@ function MyClass.server_onCreate( self )
     local size = sm.vec3.new( 1, 1, 1 )
 
     self.myTrigger = sm.areaTrigger.createBox( size, position )
-    self.myTrigger:bindOnExit( "onStay" )
+    self.myTrigger:bindOnStay( "onStay" )
 end
 
 function MyClass.onStay( self, trigger, results )
