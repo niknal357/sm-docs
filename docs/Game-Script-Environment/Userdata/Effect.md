@@ -39,6 +39,7 @@ Bind a Lua callback to be triggered by the effect.
 
 The callback receives:
 
+- <code>self</code> [<strong> table </strong>]: The class instance.
 - <code>eventName</code> [<strong> string </strong>]: The name of the event.
 - <code>params</code> [<strong> any </strong>]: Parameter object passed to the callback.
 
