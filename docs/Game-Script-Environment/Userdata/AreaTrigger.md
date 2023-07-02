@@ -231,7 +231,12 @@ Returns the shapes inside the trigger area.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> table </strong>]: The shapes inside the trigger area.
+- [<strong> table </strong>]: A table containing all Shapes that are inside the AreaTrigger, each contained in the following data structure:
+  - <code>Shape</code> [<strong> Shape </strong>]: The Shape.
+  - <code>triggerWorldPosition</code> [<strong> Vec3 </strong>]
+  - <code>triggerLocalPosition</code> [<strong> Vec3 </strong>]
+  - <code>shapeWorldPosition</code> [<strong> Vec3 </strong>]
+  - <code>shapeLocalPosition</code> [<strong> Vec3 </strong>]
 
 ---
 
