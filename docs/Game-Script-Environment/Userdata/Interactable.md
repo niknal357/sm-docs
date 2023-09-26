@@ -485,7 +485,7 @@ interactable:getPower()
 
 Returns the power output signal of the interactable. <br></br>
 This signal is usually a number between -1 to 1, where 1 is forward and -1 backward. <br></br>
-However, it can also be used for other numbers.
+However, it can also be used for other numbers, such as the number logic of The Modpack.
 
 <strong>Arguments:</strong> <br></br>
 
@@ -1094,9 +1094,9 @@ interactable:setPower( signal )
 ```
 <code>Server-Only</code> <br></br>
 
-Returns the power output signal of the interactable. <br></br>
+Sets the power output signal of the interactable. <br></br>
 This signal is usually a number between -1 to 1, where 1 is forward and -1 backward. <br></br>
-However, it can also be used for other numbers.
+However, it can also be used for other numbers, such as the number logic of The Modpack.
 
 :::caution warning
 Every time an interactable's power output signal ("power") changes, <br></br>
