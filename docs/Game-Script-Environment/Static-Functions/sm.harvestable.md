@@ -29,6 +29,10 @@ Creates a new harvestable.
 - <code>rotation</code> [<strong> quat </strong>]: The harvestable's world rotation. Defaults to <code>sm.quat.identity()</code>.
 - <code>slopeNormal</code> [<strong> vec3 </strong>]: The harvestable's slope normal, for "skew" and "rotate" slope settings. Defaults to Z axis.
 
+<strong>Returns:</strong> <br></br>
+
+- <code>harvestable</code> [<strong> Harvestable </strong>]: The created harvestable.
+
 ---
 
 ### createHarvestable
@@ -46,5 +50,9 @@ Creates a new harvestable.
 - <code>position</code> [<strong> vec3 </strong>]: The harvestable's world position.
 - <code>rotation</code> [<strong> quat </strong>]: The harvestable's world rotation. Defaults to <code>sm.quat.identity()</code>.
 - <code>slopeNormal</code> [<strong> vec3 </strong>]: The harvestable's slope normal, for "skew" and "rotate" slope settings. Defaults to Z axis.
+
+<strong>Returns:</strong> <br></br>
+
+- <code>harvestable</code> [<strong> Harvestable </strong>]: The created harvestable.
 
 ---
