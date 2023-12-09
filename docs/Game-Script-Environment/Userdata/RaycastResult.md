@@ -172,7 +172,7 @@ Returns the [Lift](/docs/Game-Script-Environment/Userdata/Lift) hit by the rayca
 <strong>Returns:</strong> <br></br>
 
 - [<strong> <a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a> </strong>]: The lift.
-- [<strong> bool </strong>]: Whether the lift is top(?) or not.
+- [<strong> bool </strong>]: Whether you are looking at the lift's top face or not. (true if you are looking at the top face)
 
 ---
 
