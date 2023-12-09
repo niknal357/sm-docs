@@ -27,8 +27,8 @@ Creates a new body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>position</code> [<strong> vec3 </strong>]: The body's world position.
-- <code>rotation</code> [<strong> quat </strong>]: The body's world rotation (optional).
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The body's world position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The body's world rotation (optional).
 - <code>isDynamic</code> [<strong> bool </strong>]: Whether the body is dynamic or static. Defaults to dynamic.
 
 ---

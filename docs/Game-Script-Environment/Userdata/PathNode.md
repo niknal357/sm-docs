@@ -33,8 +33,8 @@ Creates a PathNode connection.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>pathNode</code> [<strong> pathNode </strong>]: The pathNode.
-- <code>target</code> [<strong> pathNode </strong>]: The pathNode to connect to.
+- <code>pathNode</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/PathNode"> PathNode </a> </strong>]: The pathNode.
+- <code>target</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/PathNode"> PathNode </a> </strong>]: The pathNode to connect to.
 
 ---
 
@@ -49,7 +49,7 @@ Destroys the PathNode.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>pathNode</code> [<strong> pathNode </strong>]: The pathNode.
+- <code>pathNode</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/PathNode"> PathNode </a> </strong>]: The pathNode.
 
 ---
 
@@ -64,11 +64,11 @@ Returns the pathNode's world position.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>pathNode</code> [<strong> pathNode </strong>]: The pathNode.
+- <code>pathNode</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/PathNode"> PathNode </a> </strong>]: The pathNode.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The pathNode's world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The pathNode's world position.
 
 ---
 

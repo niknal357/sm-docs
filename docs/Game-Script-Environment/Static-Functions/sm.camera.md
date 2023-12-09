@@ -31,8 +31,8 @@ Performs a distance convex sweep with the shape of a sphere, from a position wit
 <strong>Arguments:</strong> <br></br>
 
 - <code>radius</code> [<strong> number </strong>]: The radius of the cast sphere.
-- <code>start</code> [<strong> vec3 </strong>]: The start position.
-- <code>direction</code> [<strong> vec3 </strong>]: The cast direction and range.
+- <code>start</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The start position.
+- <code>direction</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The cast direction and range.
 
 <strong>Returns:</strong> <br></br>
 
@@ -97,7 +97,7 @@ Returns the world postition where the camera should be by default.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 
 ---
 
@@ -112,7 +112,7 @@ Returns the world rotation where the camera should be by default.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation.
 
 ---
 
@@ -127,7 +127,7 @@ Returns the direction the camera is aiming.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -157,7 +157,7 @@ Returns the camera's world position.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 
 ---
 
@@ -172,7 +172,7 @@ Returns the right-vector perpendicular to the camera's aim.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The camera's right-vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The camera's right-vector.
 
 ---
 
@@ -187,7 +187,7 @@ Returns the camera's world rotation.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The camera's rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The camera's rotation.
 
 ---
 
@@ -202,7 +202,7 @@ Returns the up-vector perpendicular to the camera's aim.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The camera's up-vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The camera's up-vector.
 
 ---
 
@@ -248,7 +248,7 @@ Sets the camera's aim direction.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>dir</code> [<strong> vec3 </strong>]: The direction.
+- <code>dir</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -278,7 +278,7 @@ Sets the camera's world position.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>position</code> [<strong> vec3 </strong>]: The position.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 
 ---
 
@@ -293,7 +293,7 @@ Sets the camera's world rotation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>rotation</code> [<strong> quat </strong>]: The rotation.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation.
 
 ---
 

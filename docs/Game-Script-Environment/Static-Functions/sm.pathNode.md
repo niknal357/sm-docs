@@ -26,12 +26,12 @@ Creates a path node.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>position</code> [<strong> vec3 </strong>]: The position.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 - <code>radius</code> [<strong> number </strong>]: The radius.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> pathNode </strong>]: The path node.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/PathNode"> PathNode </a> </strong>]: The path node.
 
 ---
 

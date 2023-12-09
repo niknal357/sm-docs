@@ -40,8 +40,8 @@ This will run the callback method on the client with one optional argument.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>network</code> [<strong> network </strong>]: The network.
-- <code>client</code> [<strong> player </strong>]: The client player (or the host).
+- <code>network</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Network"> Network </a> </strong>]: The network.
+- <code>client</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The client player (or the host).
 - <code>callback</code> [<strong> string </strong>]: The name of the client function.
 - <code>data</code> [<strong> any </strong>]: Optional extra data to send.
 
@@ -59,7 +59,7 @@ This will run the callback method on the clients with one optional argument.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>network</code> [<strong> network </strong>]: The network.
+- <code>network</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Network"> Network </a> </strong>]: The network.
 - <code>callback</code> [<strong> string </strong>]: The name of the client function.
 - <code>data</code> [<strong> any </strong>]: Optional extra data to send.
 
@@ -94,7 +94,7 @@ that sent the event.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>network</code> [<strong> network </strong>]: The network.
+- <code>network</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Network"> Network </a> </strong>]: The network.
 - <code>callback</code> [<strong> string </strong>]: The name of the server function.
 - <code>data</code> [<strong> any </strong>]: Optional extra data to send.
 
@@ -140,7 +140,7 @@ If the data being set is **the same**, the client callback is **not** called.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>network</code> [<strong> network </strong>]: The network.
+- <code>network</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Network"> Network </a> </strong>]: The network.
 - <code>data</code> [<strong> any </strong>]: The data to set.
 - <code>channel</code> [<strong> int </strong>]: The data channel (1 or 2, defaults to 1).
 

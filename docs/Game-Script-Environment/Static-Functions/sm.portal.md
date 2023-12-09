@@ -26,9 +26,9 @@ Adds a hook that a new world can find to hook up the other side of a portal.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The target world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The target world.
 - <code>name</code> [<strong> string </strong>]: The portal name.
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 ---
 
@@ -43,11 +43,11 @@ Creates a new portal.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>size</code> [<strong> vec3 </strong>]: The size.
+- <code>size</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The size.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> portal </strong>]: The created portal.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The created portal.
 
 ---
 
@@ -62,7 +62,7 @@ Destroys the portal.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 ---
 
@@ -81,7 +81,7 @@ Finds and pops the world hook for this world if present.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> portal </strong>]: The portal. Nil if nothing was found.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal. Nil if nothing was found.
 
 ---
 

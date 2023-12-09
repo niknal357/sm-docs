@@ -36,12 +36,12 @@ This results in far more accurate positioning of effects that are supposed to st
 <strong>Arguments:</strong> <br></br>
 
 - <code>name</code> [<strong> string </strong>]: The effect name.
-- <code>host</code> [<strong> interactable/harvestable/character/nil </strong>]: The object that the effect is attached to.
+- <code>host</code> [<strong> interactable/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a>/ nil </strong>]: The object that the effect is attached to.
 - <code>bone</code> [<strong> string </strong>]: The bone name, if attaching to an interactable or character. Defaults to none.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> effect </strong>]: The created effect.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The created effect.
 
 ---
 
@@ -60,7 +60,7 @@ Creates a 2D effect.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> effect </strong>]: The created effect.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The created effect.
 
 ---
 
@@ -100,10 +100,10 @@ Please use [createEffect](#createeffect) for looping effects.
 <strong>Arguments:</strong> <br></br>
 
 - <code>name</code> [<strong> string </strong>]: The effect name.
-- <code>position</code> [<strong> vec3 </strong>]: The position.
-- <code>velocity</code> [<strong> vec3 </strong>]: The velocity. Defaults to none.
-- <code>rotation</code> [<strong> quat </strong>]: The rotation. Defaults to none.
-- <code>scale</code> [<strong> vec3 </strong>]: The scale, if using a renderable. Defaults to none.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The velocity. Defaults to none.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation. Defaults to none.
+- <code>scale</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The scale, if using a renderable. Defaults to none.
 - <code>parameters</code> [<strong> table </strong>]: The table containing effect parameters. Defaults to none.
 
 ---
@@ -126,7 +126,7 @@ Please use [createEffect](#createeffect) for looping effects.
 <strong>Arguments:</strong> <br></br>
 
 - <code>name</code> [<strong> string </strong>]: The effect name.
-- <code>host</code> [<strong> interactable/harvestable/character </strong>]: The object that the effect is attached to.
+- <code>host</code> [<strong> interactable/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/character </strong>]: The object that the effect is attached to.
 - <code>bone</code> [<strong> string </strong>]: The bone name, if attaching to an interactable or character. Defaults to none.
 - <code>parameters</code> [<strong> table </strong>]: The table containing effect parameters. Defaults to none.
 

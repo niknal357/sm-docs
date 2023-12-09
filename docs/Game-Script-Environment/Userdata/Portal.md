@@ -40,7 +40,7 @@ Returns the contents of opening A.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
@@ -59,7 +59,7 @@ Returns the contents of opening B.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
@@ -78,7 +78,7 @@ Returns the portal's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
@@ -97,11 +97,11 @@ Returns the position of portal opening A.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The position of opening A.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position of opening A.
 
 ---
 
@@ -116,11 +116,11 @@ Returns the position of portal opening B.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The position of opening B.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position of opening B.
 
 ---
 
@@ -135,11 +135,11 @@ Returns the rotation of portal opening A.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The rotation of opening A.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation of opening A.
 
 ---
 
@@ -154,11 +154,11 @@ Returns the rotation of portal opening B.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The rotation of opening B.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation of opening B.
 
 ---
 
@@ -173,11 +173,11 @@ Returns the world of portal opening A.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> world </strong>]: The world of opening A.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world of opening A.
 
 ---
 
@@ -192,11 +192,11 @@ Returns the world of portal opening B.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> world </strong>]: The world of opening B.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world of opening B.
 
 ---
 
@@ -211,7 +211,7 @@ Returns whether the portal has an opening A.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
@@ -230,7 +230,7 @@ Returns whether the portal has an opening B.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
@@ -249,9 +249,9 @@ Sets the portal's opening A.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
-- <code>position</code> [<strong> vec3 </strong>]: The opening position.
-- <code>rotation</code> [<strong> quat </strong>]: The the opening rotation.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The opening position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The the opening rotation.
 
 ---
 
@@ -266,9 +266,9 @@ Sets the portal's opening B.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
-- <code>position</code> [<strong> vec3 </strong>]: The opening position.
-- <code>rotation</code> [<strong> quat </strong>]: The the opening rotation.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The opening position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The the opening rotation.
 
 ---
 
@@ -283,7 +283,7 @@ Transfers objects inside opening A to opening B.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 
@@ -302,7 +302,7 @@ Transfers objects inside opening B to opening A.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>portal</code> [<strong> portal </strong>]: The portal.
+- <code>portal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Portal"> Portal </a> </strong>]: The portal.
 
 <strong>Returns:</strong> <br></br>
 

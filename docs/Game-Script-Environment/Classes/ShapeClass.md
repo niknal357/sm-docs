@@ -59,15 +59,15 @@ If the shooter is destroyed before the projectile hits, the shooter value will b
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>position</code> [<strong> vec3 </strong>]: The position in world space where the projectile hit the Shape.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position in world space where the projectile hit the Shape.
 - <code>airTime</code> [<strong> number </strong>]: The time, in seconds, that the projectile spent flying before the hit.
-- <code>velocity</code> [<strong> vec3 </strong>]: The velocity of the projectile at impact.
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The velocity of the projectile at impact.
 - <code>projectileName</code> [<strong> string </strong>]: The name of the projectile. (Legacy, use uuid instead)
-- <code>shooter</code> [<strong> player/unit/shape/harvestable/nil </strong>]: The shooter. Can be a Player, Unit, Shape, Harvestable or nil if unknown.
+- <code>shooter</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a>/<a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a>/<a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/ nil </strong>]: The shooter. Can be a Player, Unit, Shape, Harvestable or nil if unknown.
 - <code>damage</code> [<strong> int </strong>]: The damage value of the projectile.
 - <code>customData</code> [<strong> any </strong>]: A Lua object that can be defined at shoot time using <code>sm.projectile.customProjectileAttack</code> or any other custom version.
-- <code>normal</code> [<strong> vec3 </strong>]: The normal at the point of impact.
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid of the projectile.
+- <code>normal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The normal at the point of impact.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the projectile.
 
 ---
 
@@ -88,12 +88,12 @@ If the attacker is destroyed before the hit lands, the attacker value will be ni
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>position</code> [<strong> vec3 </strong>]: The position in world space where the Shape was hit.
-- <code>attacker</code> [<strong> player/nil </strong>]: The attacker. Can be a Player or nil if unknown. Attacks made by a Unit will be nil on the client.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position in world space where the Shape was hit.
+- <code>attacker</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a>/ nil </strong>]: The attacker. Can be a Player or nil if unknown. Attacks made by a Unit will be nil on the client.
 - <code>damage</code> [<strong> int </strong>]: The damage value of the melee hit.
 - <code>power</code> [<strong> number </strong>]: The physical impact of the hit.
-- <code>direction</code> [<strong> vec3 </strong>]: The direction of the melee attack.
-- <code>normal</code> [<strong> vec3 </strong>]: The normal at the point of impact.
+- <code>direction</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction of the melee attack.
+- <code>normal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The normal at the point of impact.
 
 ---
 
@@ -110,11 +110,11 @@ Called when the [Shape](/docs/Game-Script-Environment/Userdata/Shape) collides w
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>other</code> [<strong> shape/character/harvestable/lift/nil </strong>]: The other object. Nil if terrain.
-- <code>position</code> [<strong> player/nil </strong>]: The position in world space where the collision occurred.
+- <code>other</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a>/ nil </strong>]: The other object. Nil if terrain.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a>/ nil </strong>]: The position in world space where the collision occurred.
 - <code>selfPointVelocity</code> [<strong> int </strong>]: The velocity that that the Shape had at the point of collision.
 - <code>otherPointVelocity</code> [<strong> number </strong>]: The velocity that that the other object had at the point of collision.
-- <code>normal</code> [<strong> vec3 </strong>]: The collision normal between the Shape and the other object.
+- <code>normal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The collision normal between the Shape and the other object.
 
 ---
 
@@ -178,7 +178,7 @@ For more information about explosions, see [sm.physics.explode](/docs/Game-Scrip
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>center</code> [<strong> vec3 </strong>]: The center of the explosion.
+- <code>center</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The center of the explosion.
 - <code>destructionLevel</code> [<strong> int </strong>]: The level of destruction done by this explosion. Corresponds to the <code>durability</code> rating of a Shape.
 
 ---
@@ -213,7 +213,7 @@ If this method is defined, the player will see the interaction text <code>E Use<
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>character</code> [<strong> character </strong>]: The Character of the Player that is interacting with the Interactable.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The Character of the Player that is interacting with the Interactable.
 - <code>state</code> [<strong> bool </strong>]: The interaction state (<code>true</code> if pressed, <code>false</code> if released).
 
 ```lua title="Example Usage"
@@ -250,7 +250,7 @@ This can be used to override restrictions (See [Shape.usable](/docs/Game-Script-
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>character</code> [<strong> character </strong>]: The Character of the Player that is looking at the Shape.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The Character of the Player that is looking at the Shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -274,7 +274,7 @@ Tinkering usually means opening the upgrade menu for seats.
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>character</code> [<strong> character </strong>]: The Character of the Player that is tinkering with the Interactable.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The Character of the Player that is tinkering with the Interactable.
 - <code>state</code> [<strong> bool </strong>]: The interaction state (<code>true</code> if pressed, <code>false</code> if released).
 
 ---
@@ -295,7 +295,7 @@ Tinkering usually means opening the upgrade menu for seats.
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>character</code> [<strong> character </strong>]: The Character of the Player that is looking at the Shape.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The Character of the Player that is looking at the Shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -314,9 +314,9 @@ Called when a [Player](/docs/Game-Script-Environment/Userdata/Player) is interac
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>character</code> [<strong> character </strong>]: The Character of the Player that is interacting with the Interactable.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The Character of the Player that is interacting with the Interactable.
 - <code>state</code> [<strong> bool </strong>]: The interaction state. Always true. <code>client_onInteractThroughJoint</code> only receives the key down event.
-- <code>joint</code> [<strong> joint </strong>]: The Joint that the Player interacted through.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The Joint that the Player interacted through.
 
 ---
 
@@ -336,7 +336,7 @@ This callback can also be used to change the interaction text shown to the playe
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>character</code> [<strong> character </strong>]: The Character of the Player that is looking at the Joint.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The Character of the Player that is looking at the Joint.
 
 <strong>Returns:</strong> <br></br>
 

@@ -45,12 +45,12 @@ Returns a directional vector with a random spread given by a [normal distributio
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>direction</code> [<strong> vec3 </strong>]: The direction.
+- <code>direction</code> [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 - <code>spreadAngle</code> [<strong> number </strong>]: The spread angle in degrees.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The spread direction.
+- [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The spread direction.
 
 ---
 

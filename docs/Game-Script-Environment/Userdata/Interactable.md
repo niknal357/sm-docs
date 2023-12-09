@@ -21,7 +21,7 @@ A userdata object representing an <strong>interactable shape</strong> in the gam
 	- <code>Set</code>: (Server-Only) Sets the interactable's logic output signal.
 
 
-- <code>body</code> [<strong> body </strong>] <br></br>
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>] <br></br>
 
 	- <code>Get</code>: The interactable shape's body.
 
@@ -43,7 +43,7 @@ A userdata object representing an <strong>interactable shape</strong> in the gam
 	- <code>Set</code>: (Server-Only) Sets the interactable's server public data.
 
 
-- <code>shape</code> [<strong> shape </strong>] <br></br>
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>] <br></br>
 
 	- <code>Get</code>: The interactable's shape.
 
@@ -72,14 +72,14 @@ Creates and stores a container in the given index inside the controller.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>index</code> [<strong> int </strong>]: The index of the container (0 - 15).
 - <code>size</code> [<strong> int </strong>]: The number of slots in the container.
 - <code>stackSize</code> [<strong> int </strong>]: The stack size. Defaults to max stack size (65535).
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> container </strong>]: The created container.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The created container.
 
 ---
 
@@ -94,8 +94,8 @@ Connects the interactable to another compatible interactable. Similar to using t
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>child</code> [<strong> interactable </strong>]: The child (receiving) interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>child</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The child (receiving) interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -114,8 +114,8 @@ Connects the interactable to a compatible joint.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>child</code> [<strong> joint </strong>]: The child (receiving) joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>child</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The child (receiving) joint.
 
 ---
 
@@ -130,8 +130,8 @@ Disconnects the interactable from another interactable. Similar to using the Con
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>child</code> [<strong> interactable </strong>]: The child interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>child</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The child interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -150,7 +150,7 @@ Returns animation duration in seconds.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>name</code> [<strong> string </strong>]: The name of the animation.
 
 <strong>Returns:</strong> <br></br>
@@ -169,7 +169,7 @@ Returns a table of [bearings](/docs/Game-Script-Environment/Userdata/Joint) that
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -187,11 +187,11 @@ Returns the [body](/docs/Game-Script-Environment/Userdata/Body) of the interacta
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> body </strong>]: The body.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 ---
 
@@ -206,7 +206,7 @@ The children listen to the interactable's output.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>connectionType</code> [<strong> int </strong>]: Connection type filter. Defaults to all types except <code>bearing</code> (for backwards compatibility). 
 
 <strong>Returns:</strong> <br></br>
@@ -226,11 +226,11 @@ This point color is shown when aiming at the shape with the Connect Tool.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> color </strong>]: The highlight color.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The highlight color.
 
 ---
 
@@ -245,11 +245,11 @@ This point color is shown when the Connect Tool is equipped.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> color </strong>]: The color.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color.
 
 ---
 
@@ -263,7 +263,7 @@ Returns the interactable's input connection type.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -281,7 +281,7 @@ Returns the interactable's output connection type.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -299,12 +299,12 @@ Returns the container stored at the given index inside the controller.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>index</code> [<strong> int </strong>]: The index (default 0).
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> container </strong>]: The container.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 ---
 
@@ -319,7 +319,7 @@ Returns the interactable's glow multiplier.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -337,7 +337,7 @@ Returns the interactable's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -356,7 +356,7 @@ Joints include <strong>bearings</strong> and <strong>pistons</strong>.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -374,12 +374,12 @@ Returns the local position of a bone.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>name</code> [<strong> string </strong>]: The bone name.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 
 ---
 
@@ -393,7 +393,7 @@ Returns the maximum number of allowed child connections of the interactable - th
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -411,7 +411,7 @@ Returns the maximum number of allowed parent connections of the interactable - t
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -430,7 +430,7 @@ The parents act as the interactable's input.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>connectionType</code> [<strong> int </strong>]: Connection type filter. Defaults to all types.
 
 <strong>Returns:</strong> <br></br>
@@ -449,7 +449,7 @@ Returns a table of [pistons](/docs/Game-Script-Environment/Userdata/Joint) that 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -468,7 +468,7 @@ Returns the pose weight of the pose in the given index.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>index</code> [<strong> int </strong>]: The index.
 
 <strong>Returns:</strong> <br></br>
@@ -489,7 +489,7 @@ However, it can also be used for other numbers, such as the number logic of The 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -508,7 +508,7 @@ Returns the interactable's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -526,11 +526,11 @@ Returns the [Character](/docs/Game-Script-Environment/Userdata/Character) that i
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> character </strong>]: The seated character.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The seated character.
 
 ---
 
@@ -544,7 +544,7 @@ Returns a table of interactables that are connected to the seat.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -562,11 +562,11 @@ Returns the interactable's [Shape](/docs/Game-Script-Environment/Userdata/Shape)
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> shape </strong>]: The interactable's host shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The interactable's host shape.
 
 ---
 
@@ -585,11 +585,11 @@ This method is <strong>not</strong> allowed for an interactable that allows more
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> interactable </strong>]: The parent interactable.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The parent interactable.
 
 ---
 
@@ -606,7 +606,7 @@ and +1 represents steering left.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -624,8 +624,8 @@ Returns the left angle limit of a [Joint](/docs/Game-Script-Environment/Userdata
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
@@ -643,8 +643,8 @@ Returns the left angle speed of a [Joint](/docs/Game-Script-Environment/Userdata
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
@@ -662,8 +662,8 @@ Returns the right angle limit of a [Joint](/docs/Game-Script-Environment/Userdat
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
@@ -681,8 +681,8 @@ Returns the right angle speed of a [Joint](/docs/Game-Script-Environment/Userdat
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
@@ -700,8 +700,8 @@ Returns the settings of a [Joint](/docs/Game-Script-Environment/Userdata/Joint) 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
@@ -723,8 +723,8 @@ Returns the lock state of a [Joint](/docs/Game-Script-Environment/Userdata/Joint
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
@@ -745,7 +745,7 @@ and -1 represents pressing "backwards".
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -765,7 +765,7 @@ See [sm.interactable.types](/docs/Game-Script-Environment/Constants) for details
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -784,7 +784,7 @@ Returns the index of the current UV animation frame.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -802,12 +802,12 @@ Returns the world position of a bone.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>name</code> [<strong> string </strong>]: The bone name.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world position.
 
 ---
 
@@ -822,7 +822,7 @@ Returns whether an animation exists.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>name</code> [<strong> string </strong>]: The animation name.
 
 <strong>Returns:</strong> <br></br>
@@ -841,7 +841,7 @@ Returns whether the interactable has the specified output connection type.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>type</code> [<strong> int </strong>]: The connection type.
 
 <strong>Returns:</strong> <br></br>
@@ -860,7 +860,7 @@ Returns whether the interactable has a seat component.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -878,7 +878,7 @@ Returns whether the interactable has a steering component.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -898,7 +898,7 @@ This signal is a boolean, <strong>on</strong> or <strong>off</strong>.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -916,7 +916,7 @@ Triggers a <strong>press</strong> interaction on an interactable connected to th
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>index</code> [<strong> int </strong>]: The index of the interactable.
 
 <strong>Returns:</strong> <br></br>
@@ -935,7 +935,7 @@ Triggers a <strong>release</strong> interaction on an interactable connected to 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>index</code> [<strong> int </strong>]: The index of the interactable.
 
 <strong>Returns:</strong> <br></br>
@@ -955,7 +955,7 @@ Removes the container stored in the given index inside the controller.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>index</code> [<strong> int </strong>]: The index of the container.
 
 ---
@@ -983,7 +983,7 @@ if neccessary (and make sure to <strong>not</strong> set it every tick, if possi
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>signal</code> [<strong> bool </strong>]: The logic output signal.
 
 ---
@@ -1000,7 +1000,7 @@ True enables the animation and false disables it.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>name</code> [<strong> string </strong>]: The animation name.
 - <code>enabled</code> [<strong> bool </strong>]: Whether the animation is enabled or not.
 
@@ -1017,7 +1017,7 @@ Sets the progress on the animation with the given name.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>name</code> [<strong> string </strong>]: The animation name.
 - <code>progress</code> [<strong> number </strong>]: The progress (between 0 and 1).
 
@@ -1034,7 +1034,7 @@ Sets a value to multiply the glow from asg texture with.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>value</code> [<strong> number </strong>]: The glow multiplier.
 
 ---
@@ -1050,8 +1050,8 @@ Sets the direction of the gyro.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>direction</code> [<strong> vec3 </strong>]: The gyro direction.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>direction</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The gyro direction.
 
 ---
 
@@ -1065,7 +1065,7 @@ Sets the interactable's script param data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>data</code> [<strong> any </strong>]: The param data.
 
 ---
@@ -1081,7 +1081,7 @@ Set the pose weight of the pose in the given index.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>index</code> [<strong> int </strong>]: The index.
 - <code>value</code> [<strong> number </strong>]: The pose weight.
 
@@ -1111,7 +1111,7 @@ if neccessary (and make sure to <strong>not</strong> set it every tick, if possi
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>signal</code> [<strong> number </strong>]: The power output signal.
 
 ---
@@ -1127,7 +1127,7 @@ Set the interactable's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>data</code> [<strong> table </strong>]: The data to set.
 
 ---
@@ -1142,8 +1142,8 @@ Requests to seat a [Character](/docs/Game-Script-Environment/Userdata/Character)
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 ---
 
@@ -1157,7 +1157,7 @@ Sets the steering flag for the steering interactable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>flag</code> [<strong> int </strong>]: The steering flag.
 
 ---
@@ -1173,8 +1173,8 @@ Sets the left angle limit settings of a [Joint](/docs/Game-Script-Environment/Us
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 - <code>value</code> [<strong> number </strong>]: The left angle limit.
 
 ---
@@ -1190,8 +1190,8 @@ Sets the left angle speed settings of a [Joint](/docs/Game-Script-Environment/Us
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 - <code>value</code> [<strong> number </strong>]: The left angle speed.
 
 ---
@@ -1207,8 +1207,8 @@ Sets the right angle limit settings of a [Joint](/docs/Game-Script-Environment/U
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 - <code>value</code> [<strong> number </strong>]: The right angle limit.
 
 ---
@@ -1224,8 +1224,8 @@ Sets the right angle speed settings of a [Joint](/docs/Game-Script-Environment/U
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 - <code>value</code> [<strong> number </strong>]: The right angle speed.
 
 ---
@@ -1241,8 +1241,8 @@ Sets the right angle speed settings of a [Joint](/docs/Game-Script-Environment/U
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 - <code>leftSpeed</code> [<strong> number </strong>]: The left angle speed.
 - <code>rightSpeed</code> [<strong> number </strong>]: The right angle speed.
 - <code>leftLimit</code> [<strong> number </strong>]: The left angle limit.
@@ -1262,8 +1262,8 @@ Sets the lock state of a [Joint](/docs/Game-Script-Environment/Userdata/Joint) c
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 - <code>value</code> [<strong> bool </strong>]: Whether the joint is unlocked or not.
 
 ---
@@ -1279,7 +1279,7 @@ Sets the visibility of a submesh.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>name</code> [<strong> string </strong>]: The submesh name.
 - <code>visible</code> [<strong> bool </strong>]: Whether the submesh is visible or not.
 
@@ -1296,7 +1296,7 @@ Sets the UV animation frame with the given index.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>index</code> [<strong> int </strong>]: The index.
 
 ---
@@ -1311,7 +1311,7 @@ Unsets the steering flag for a steering interactable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>flag</code> [<strong> int </strong>]: The steering flag.
 
 ---

@@ -52,7 +52,7 @@ Called when a [Player](/docs/Game-Script-Environment/Userdata/Player) joins the 
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>player</code> [<strong> player </strong>]: The joining player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The joining player.
 - <code>newPlayer</code> [<strong> bool </strong>]: True if the player has not been in this game before.
 
 ---
@@ -68,7 +68,7 @@ Called when a [Player](/docs/Game-Script-Environment/Userdata/Player) leaves the
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>player</code> [<strong> player </strong>]: The leaving player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The leaving player.
 
 ---
 

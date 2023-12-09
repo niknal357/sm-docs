@@ -30,7 +30,7 @@ loadCellHandle:release()
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>loadCellHandle</code> [<strong> loadCellHandle </strong>]: Handle to a load player dummy.
+- <code>loadCellHandle</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/LoadCellHandle"> LoadCellHandle </a> </strong>]: Handle to a load player dummy.
 
 <strong>Returns:</strong> <br></br>
 

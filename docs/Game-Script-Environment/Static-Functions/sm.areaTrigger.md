@@ -36,16 +36,16 @@ Creating an area trigger with zero in any of the 3 <code>dimension</code> values
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The host interactable.
-- <code>dimension</code> [<strong> vec3 </strong>]: The trigger size.
-- <code>position</code> [<strong> vec3 </strong>]: The position offset (defaults to none).
-- <code>rotation</code> [<strong> quat </strong>]: The rotation offset (defaults to none)
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The host interactable.
+- <code>dimension</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The trigger size.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position offset (defaults to none).
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation offset (defaults to none)
 - <code>filter</code> [<strong> int </strong>]: The filter. Defaults to no filter.
 - <code>userdata</code> [<strong> table </strong>]: A table of data that can be retrieved using <code>areaTrigger:getUserData()</code>.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> areaTrigger </strong>]: The created areaTrigger.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The created areaTrigger.
 
 ```lua title="Example Usage"
 MyShape = class()
@@ -88,16 +88,16 @@ See [sm.areaTrigger.filter](/docs/Game-Script-Environment/Constants#smareatrigge
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The host interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The host interactable.
 - <code>radius</code> [<strong> number </strong>]: The trigger radius.
-- <code>position</code> [<strong> vec3 </strong>]: The position offset (defaults to none).
-- <code>rotation</code> [<strong> quat </strong>]: The rotation offset (defaults to none)
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position offset (defaults to none).
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation offset (defaults to none)
 - <code>filter</code> [<strong> int </strong>]: The filter. Defaults to no filter.
 - <code>userdata</code> [<strong> table </strong>]: A table of data that can be retrieved using <code>areaTrigger:getUserData()</code>.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> areaTrigger </strong>]: The created areaTrigger.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The created areaTrigger.
 
 ---
 
@@ -119,15 +119,15 @@ Creating an area trigger with zero in any of the 3 <code>size</code> values (x, 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>size</code> [<strong> vec3 </strong>]: The trigger size.
-- <code>position</code> [<strong> vec3 </strong>]: The position.
-- <code>rotation</code> [<strong> quat </strong>]: The rotation (defaults to <code>sm.quat.identity</code>).
+- <code>size</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The trigger size.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation (defaults to <code>sm.quat.identity</code>).
 - <code>filter</code> [<strong> int </strong>]: The filter. Defaults to no filter.
 - <code>userdata</code> [<strong> table </strong>]: A table of data that can be retrieved using <code>areaTrigger:getUserData()</code>.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> areaTrigger </strong>]: The created areaTrigger.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The created areaTrigger.
 
 ---
 
@@ -149,15 +149,15 @@ Creating an area trigger with zero in any of the 3 <code>size</code> values (x, 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>size</code> [<strong> vec3 </strong>]: The trigger size.
-- <code>position</code> [<strong> vec3 </strong>]: The position.
-- <code>rotation</code> [<strong> quat </strong>]: The rotation (defaults to <code>sm.quat.identity</code>).
+- <code>size</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The trigger size.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation (defaults to <code>sm.quat.identity</code>).
 - <code>filter</code> [<strong> int </strong>]: The filter. Defaults to no filter.
 - <code>userdata</code> [<strong> table </strong>]: A table of data that can be retrieved using <code>areaTrigger:getUserData()</code>.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> areaTrigger </strong>]: The created areaTrigger.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The created areaTrigger.
 
 ---
 
@@ -176,14 +176,14 @@ See [sm.areaTrigger.filter](/docs/Game-Script-Environment/Constants#smareatrigge
 <strong>Arguments:</strong> <br></br>
 
 - <code>radius</code> [<strong> number </strong>]: The trigger radius.
-- <code>position</code> [<strong> vec3 </strong>]: The position.
-- <code>rotation</code> [<strong> quat </strong>]: The rotation (defaults to <code>sm.quat.identity</code>).
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation (defaults to <code>sm.quat.identity</code>).
 - <code>filter</code> [<strong> int </strong>]: The filter. Defaults to no filter.
 - <code>userdata</code> [<strong> table </strong>]: A table of data that can be retrieved using <code>areaTrigger:getUserData()</code>.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> areaTrigger </strong>]: The created areaTrigger.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The created areaTrigger.
 
 ---
 
@@ -197,7 +197,7 @@ Destroys an areaTrigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>trigger</code> [<strong> areaTrigger </strong>]: The trigger to destroy.
+- <code>trigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The trigger to destroy.
 
 ---
 

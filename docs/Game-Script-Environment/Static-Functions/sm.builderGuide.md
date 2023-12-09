@@ -26,12 +26,12 @@ Creates a [BuilderGuide](/docs/Game-Script-Environment/Userdata/BuilderGuide), c
 <strong>Arguments:</strong> <br></br>
 
 - <code>path</code> [<strong> string </strong>]: The file path to the builder guide blueprint.
-- <code>shape</code> [<strong> shape </strong>]: Root Shape for comparing the creation from.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: Root Shape for comparing the creation from.
 - <code>ignoreBlockUuid</code> [<strong> bool </strong>]: Whether the block UUID should be ignored for stage completion. Defaults to false.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> builderGuide </strong>]: The created guide.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/BuilderGuide"> BuilderGuide </a> </strong>]: The created guide.
 
 ---
 

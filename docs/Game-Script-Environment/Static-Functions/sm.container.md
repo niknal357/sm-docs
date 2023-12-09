@@ -60,8 +60,8 @@ A transaction must be [started](#begintransaction) before using this.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
-- <code>itemUuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
+- <code>itemUuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 - <code>quantity</code> [<strong> int </strong>]: The item amount.
 - <code>mustCollectAll</code> [<strong> bool </strong>]: Whether all items must be collected to make the transaction valid. Defaults to true.
 
@@ -86,9 +86,9 @@ A transaction must be [started](#begintransaction) before using this.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 - <code>slot</code> [<strong> int </strong>]: The slot.
-- <code>itemUuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>itemUuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 - <code>quantity</code> [<strong> int </strong>]: The item amount.
 - <code>mustCollectAll</code> [<strong> bool </strong>]: Whether all items must be collected to make the transaction valid. Defaults to true.
 
@@ -123,7 +123,7 @@ Returns a table containing item uuid, quantity (and instance id for tools) at th
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 <strong>Returns:</strong> <br></br>
 
@@ -141,7 +141,7 @@ Returns a table containing all item uuids in a container.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 <strong>Returns:</strong> <br></br>
 
@@ -164,8 +164,8 @@ A transaction must be [started](#begintransaction) before using this.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The source container.
-- <code>container</code> [<strong> container </strong>]: The target container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The source container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The target container.
 - <code>moveAll</code> [<strong> bool </strong>]: Whether all items are required to be movable.
 
 ---
@@ -185,9 +185,9 @@ A transaction must be [started](#begintransaction) before using this.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container to assign.
-- <code>player</code> [<strong> player </strong>]: The player to receive the carry content and color.
-- <code>color</code> [<strong> color </strong>]: The color to assign.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container to assign.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player to receive the carry content and color.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color to assign.
 
 ---
 
@@ -201,7 +201,7 @@ Returns a table containing all item quantities in a container.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 <strong>Returns:</strong> <br></br>
 
@@ -224,8 +224,8 @@ A transaction must be [started](#begintransaction) before using this.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
-- <code>itemUuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
+- <code>itemUuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 - <code>quantity</code> [<strong> int </strong>]: The item amount.
 - <code>mustSpendAll</code> [<strong> bool </strong>]: True = Only remove items if there are enough. False = Remove as many as possible. Defaults to true.
 
@@ -250,9 +250,9 @@ A transaction must be [started](#begintransaction) before using this.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 - <code>slot</code> [<strong> int </strong>]: The slot.
-- <code>itemUuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>itemUuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 - <code>quantity</code> [<strong> int </strong>]: The item amount.
 - <code>mustSpendAll</code> [<strong> bool </strong>]: True = Only remove items if there are enough. False = Remove as many as possible. Defaults to true.
 
@@ -277,8 +277,8 @@ A transaction must be [started](#begintransaction) before using this.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The first container.
-- <code>container</code> [<strong> container </strong>]: The second container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The first container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The second container.
 - <code>sourceSlot</code> [<strong> int </strong>]: The first slot.
 - <code>targetSlot</code> [<strong> int </strong>]: The second slot.
 
@@ -298,8 +298,8 @@ Returns the total number of a given item uuid in a container.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
-- <code>uuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 
 <strong>Returns:</strong> <br></br>
 

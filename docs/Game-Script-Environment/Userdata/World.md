@@ -40,7 +40,7 @@ Only available in the game script environment.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 
 ---
 
@@ -54,7 +54,7 @@ Returns the world's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 
 <strong>Returns:</strong> <br></br>
 
@@ -72,7 +72,7 @@ Returns whether the world is an indoor world.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 
 <strong>Returns:</strong> <br></br>
 
@@ -95,19 +95,19 @@ The callback parameters are ( world, x, y, player, params, handle )
 
 <strong>The callback receives:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 - <code>x</code> [<strong> int </strong>]: The cell's X position.
 - <code>y</code> [<strong> int </strong>]: The cell's Y position.
-- <code>player</code> [<strong> player </strong>]: The player that was loaded for.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player that was loaded for.
 - <code>params</code> [<strong> any </strong>]: Params passed to <code>loadCell</code>.
-- <code>handle</code> [<strong> loadCellHandle </strong>]: The cell's <code>LoadCellHandle</code>, for releasing the cell.
+- <code>handle</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/LoadCellHandle"> LoadCellHandle </a> </strong>]: The cell's <code>LoadCellHandle</code>, for releasing the cell.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 - <code>x</code> [<strong> int </strong>]: The cell's X position.
 - <code>y</code> [<strong> int </strong>]: The cell's Y position.
-- <code>player</code> [<strong> player </strong>]: The player to load for. Optional.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player to load for. Optional.
 - <code>callback</code> [<strong> string </strong>]: The Lua function to call when the cell is loaded. Optional.
 - <code>params</code> [<strong> any </strong>]: A parameter object passed to the callback function. Optional.
 - <code>ref</code> [<strong> ref </strong>]: The ScriptRef for the callback object. Optional.
@@ -128,14 +128,14 @@ Reloads a cell.
 
 <strong>The callback receives:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 - <code>x</code> [<strong> int </strong>]: The cell's X position.
 - <code>y</code> [<strong> int </strong>]: The cell's Y position.
 - <code>result</code> [<strong> int </strong>]: The result. 0 = Not reloaded due to cell being inactive. 1 = Successfully reloaded.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 - <code>x</code> [<strong> int </strong>]: The cell's X position.
 - <code>y</code> [<strong> int </strong>]: The cell's Y position.
 - <code>callback</code> [<strong> string </strong>]: The Lua function to call when the cell is reloaded. Optional.
@@ -154,7 +154,7 @@ If no data is set, the terrain generation script receives the same data as the w
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 - <code>data</code> [<strong> any </strong>]: Any data, available in the terrain script as parameter 6 in the create callback.
 
 ---
@@ -169,8 +169,8 @@ Modifies destructable terrain with a sphere shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
-- <code>position</code> [<strong> vec3 </strong>]: The world position of the sphere.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world position of the sphere.
 - <code>radius</code> [<strong> number </strong>]: The radius of the sphere.
 - <code>strength</code> [<strong> number </strong>]: The strength of the modification (Optional).
 

@@ -61,12 +61,12 @@ Called when a collision occurs in this world.
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>objectA</code> [<strong> shape/character/harvestable/lift/nil </strong>]: The first colliding object. Nil if terrain.
-- <code>objectB</code> [<strong> shape/character/harvestable/lift/nil </strong>]: The second colliding object. Nil if terrain.
-- <code>position</code> [<strong> vec3 </strong>]: The position in world space where the collision occurred.
-- <code>pointVelocityA</code> [<strong> vec3 </strong>]: The velocity that that the first object had at the point of collision.
-- <code>pointVelocityB</code> [<strong> vec3 </strong>]: The velocity that that the second object had at the point of collision.
-- <code>normal</code> [<strong> vec3 </strong>]: The collision normal from objectA to objectB.
+- <code>objectA</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a>/ nil </strong>]: The first colliding object. Nil if terrain.
+- <code>objectB</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a>/ nil </strong>]: The second colliding object. Nil if terrain.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position in world space where the collision occurred.
+- <code>pointVelocityA</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The velocity that that the first object had at the point of collision.
+- <code>pointVelocityB</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The velocity that that the second object had at the point of collision.
+- <code>normal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The collision normal from objectA to objectB.
 
 ---
 
@@ -136,7 +136,7 @@ Called when an [Interactable](/docs/Game-Script-Environment/Userdata/Interactabl
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable of the built shape.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable of the built shape.
 
 ---
 
@@ -151,7 +151,7 @@ Called when an [Interactable](/docs/Game-Script-Environment/Userdata/Interactabl
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable of the removed shape.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable of the removed shape.
 
 ---
 
@@ -170,16 +170,16 @@ If the shooter is destroyed before the projectile hits, the shooter value will b
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>position</code> [<strong> vec3 </strong>]: The position in world space where the projectile hit.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position in world space where the projectile hit.
 - <code>airTime</code> [<strong> number </strong>]: The time, in seconds, that the projectile spent flying before the hit.
-- <code>velocity</code> [<strong> vec3 </strong>]: The velocity of the projectile at impact.
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The velocity of the projectile at impact.
 - <code>projectileName</code> [<strong> string </strong>]: The name of the projectile. (Legacy, use uuid instead)
-- <code>shooter</code> [<strong> player/unit/shape/harvestable/nil </strong>]: The shooter. Can be a Player, Unit, Shape, Harvestable or nil if unknown.
+- <code>shooter</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a>/<a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a>/<a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/ nil </strong>]: The shooter. Can be a Player, Unit, Shape, Harvestable or nil if unknown.
 - <code>damage</code> [<strong> int </strong>]: The damage value of the projectile.
 - <code>customData</code> [<strong> any </strong>]: A Lua object that can be defined at shoot time using <code>sm.projectile.customProjectileAttack</code> or any other custom version.
-- <code>target</code> [<strong> Character/Shape/Harvestable/Lift/nil </strong>]: The hit target. Can be a Character, Shape, Harvestable, Lift or nil if terrain or unknown.
-- <code>normal</code> [<strong> vec3 </strong>]: The normal at the point of impact.
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid of the projectile.
+- <code>target</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a>/<a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a>/ nil </strong>]: The hit target. Can be a Character, Shape, Harvestable, Lift or nil if terrain or unknown.
+- <code>normal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The normal at the point of impact.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the projectile.
 
 ---
 
@@ -194,7 +194,7 @@ Called when an explosion occurs in this world.
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>center</code> [<strong> vec3 </strong>]: The center of the explosion.
+- <code>center</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The center of the explosion.
 - <code>destructionLevel</code> [<strong> int </strong>]: The level of destruction done by this explosion. Corresponds to the <code>durability</code> rating of a Shape.
 
 ---
@@ -214,13 +214,13 @@ If the attacker is destroyed before the hit lands, the attacker value will be ni
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>position</code> [<strong> vec3 </strong>]: The position in world space where the attack hit.
-- <code>attacker</code> [<strong> player/nil </strong>]: The attacker. Can be a Player, Unit or nil if unknown.
-- <code>target</code> [<strong> Character/Shape/Harvestable/Lift/nil </strong>]: The hit target. Can be a Character, Shape, Harvestable, Lift or nil if terrain or unknown.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position in world space where the attack hit.
+- <code>attacker</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a>/ nil </strong>]: The attacker. Can be a Player, Unit or nil if unknown.
+- <code>target</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a>/<a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a>/ nil </strong>]: The hit target. Can be a Character, Shape, Harvestable, Lift or nil if terrain or unknown.
 - <code>damage</code> [<strong> int </strong>]: The damage value of the melee hit.
 - <code>power</code> [<strong> number </strong>]: The physical impact of the hit.
-- <code>direction</code> [<strong> vec3 </strong>]: The direction of the melee attack.
-- <code>normal</code> [<strong> vec3 </strong>]: The normal at the point of impact.
+- <code>direction</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction of the melee attack.
+- <code>normal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The normal at the point of impact.
 
 ---
 
@@ -239,11 +239,11 @@ If the shooter is destroyed before the projectile hits, the shooter value will b
 <strong>Arguments:</strong> <br></br>
 
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>position</code> [<strong> vec3 </strong>]: The position in world space where projectile was fired from.
-- <code>velocity</code> [<strong> vec3 </strong>]: The fire velocity of the projectile.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position in world space where projectile was fired from.
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The fire velocity of the projectile.
 - <code>projectileName</code> [<strong> string </strong>]: The name of the projectile. (Legacy, use uuid instead)
-- <code>shooter</code> [<strong> player/unit/shape/harvestable/nil </strong>]: The shooter. Can be a Player, Unit, Shape, Harvestable or nil if unknown.
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid of the projectile.
+- <code>shooter</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a>/<a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a>/<a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/ nil </strong>]: The shooter. Can be a Player, Unit, Shape, Harvestable or nil if unknown.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the projectile.
 
 ---
 

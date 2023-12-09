@@ -30,7 +30,7 @@ A userdata object representing a <strong>joint</strong> (bearing, piston, etc.) 
 	- <code>Get</code>: The bearing's applied impulse.
 
 
-- <code>color</code> [<strong> color </strong>] <br></br>
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's color.
 
@@ -45,12 +45,12 @@ A userdata object representing a <strong>joint</strong> (bearing, piston, etc.) 
 	- <code>Get</code>: The piston's current length in blocks.
 
 
-- <code>localPosition</code> [<strong> vec3 </strong>] <br></br>
+- <code>localPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's local position.
 
 
-- <code>localRotation</code> [<strong> quat </strong>] <br></br>
+- <code>localRotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's local rotation.
 
@@ -60,12 +60,12 @@ A userdata object representing a <strong>joint</strong> (bearing, piston, etc.) 
 	- <code>Get</code>: Whether the bearing is reversed (counterclockwise) or not.
 
 
-- <code>shapeA</code> [<strong> shape </strong>] <br></br>
+- <code>shapeA</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's parent shape. This shape always exists.
 
 
-- <code>shapeB</code> [<strong> shape </strong>] <br></br>
+- <code>shapeB</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's child shape or nil if no shape is attached.
 
@@ -75,27 +75,27 @@ A userdata object representing a <strong>joint</strong> (bearing, piston, etc.) 
 	- <code>Get</code>: The joint's type.
 
 
-- <code>uuid</code> [<strong> uuid </strong>] <br></br>
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's uuid.
 
 
-- <code>worldPosition</code> [<strong> vec3 </strong>] <br></br>
+- <code>worldPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's world position.
 
 
-- <code>xAxis</code> [<strong> vec3 </strong>] <br></br>
+- <code>xAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's local x-axis vector.
 
 
-- <code>yAxis</code> [<strong> vec3 </strong>] <br></br>
+- <code>yAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's local y-axis vector.
 
 
-- <code>zAxis</code> [<strong> vec3 </strong>] <br></br>
+- <code>zAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The joint's local z-axis vector.
 
@@ -119,10 +119,10 @@ Creates a block on the joint.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
-- <code>uuid</code> [<strong> uuid </strong>]: The shape uuid.
-- <code>size</code> [<strong> vec3 </strong>]: The shape size.
-- <code>position</code> [<strong> vec3 </strong>]: The shape's local position.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The shape uuid.
+- <code>size</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape size.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local position.
 - <code>forceCreate</code> [<strong> bool </strong>]: Whether to force creating the shape or not. Defaults to true.
 
 ---
@@ -138,11 +138,11 @@ Creates a part on the joint.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
-- <code>uuid</code> [<strong> uuid </strong>]: The shape uuid.
-- <code>position</code> [<strong> vec3 </strong>]: The shape's local position.
-- <code>zAxis</code> [<strong> vec3 </strong>]: The shape's local z direction.
-- <code>xAxis</code> [<strong> vec3 </strong>]: The shape's local x direction.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The shape uuid.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local position.
+- <code>zAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local z direction.
+- <code>xAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local x direction.
 - <code>forceCreate</code> [<strong> bool </strong>]: Whether to force creating the shape or not. Defaults to true.
 
 ---
@@ -157,7 +157,7 @@ Returns the bearing's angle.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>bearing</code> [<strong> joint </strong>]: The bearing.
+- <code>bearing</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The bearing.
 
 <strong>Returns:</strong> <br></br>
 
@@ -177,7 +177,7 @@ This velocity can be set using [setMotorVelocity](#setMotorVelocity) or [setTarg
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>bearing</code> [<strong> joint </strong>]: The bearing.
+- <code>bearing</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The bearing.
 
 <strong>Returns:</strong> <br></br>
 
@@ -197,7 +197,7 @@ The applied impulse can be set using [setMotorVelocity](#setMotorVelocity) or [s
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>bearing</code> [<strong> joint </strong>]: The bearing.
+- <code>bearing</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The bearing.
 
 <strong>Returns:</strong> <br></br>
 
@@ -215,11 +215,11 @@ Returns the joint's bounding box - the dimensions that it occupies when building
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The joint's bounding box.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint's bounding box.
 
 ---
 
@@ -233,11 +233,11 @@ Returns the joint's color.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> color </strong>]: The joint's color.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The joint's color.
 
 ---
 
@@ -252,8 +252,8 @@ Sets the joint's color.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
-- <code>color</code> [<strong> color </strong>]: The color.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color.
 
 ---
 
@@ -267,7 +267,7 @@ Returns the joint's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
@@ -285,7 +285,7 @@ Returns the piston's current length in blocks.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>piston</code> [<strong> joint </strong>]: The piston.
+- <code>piston</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The piston.
 
 <strong>Returns:</strong> <br></br>
 
@@ -303,11 +303,11 @@ Returns the joint's local position.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The joint's local position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint's local position.
 
 ---
 
@@ -321,11 +321,11 @@ Returns the joint's local rotation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The joint's local rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The joint's local rotation.
 
 ---
 
@@ -341,11 +341,11 @@ This shape always exists.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> shape </strong>]: The joint's parent shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The joint's parent shape.
 
 ---
 
@@ -361,11 +361,11 @@ This is the shape that is attached to the joint.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> shape </strong>]: The joint's child shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The joint's child shape.
 
 ---
 
@@ -379,11 +379,11 @@ Returns the joint's uuid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> uuid </strong>]: The joint's uuid.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The joint's uuid.
 
 ---
 
@@ -399,12 +399,12 @@ A value of 1 means that the direction is sticky and a value of 0 means that the 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The negative sticky directions.
-- [<strong> vec3 </strong>]: The positive sticky directions.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The negative sticky directions.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The positive sticky directions.
 
 ---
 
@@ -420,7 +420,7 @@ For details, see [sm.joint.types](/docs/Game-Script-Environment/Constants#smjoin
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
@@ -438,11 +438,11 @@ Returns the joint's world position.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The joint's world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint's world position.
 
 ---
 
@@ -456,11 +456,11 @@ Returns the joint's world rotation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The joint's world rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The joint's world rotation.
 
 ---
 
@@ -474,11 +474,11 @@ Returns the joint's local x-axis vector.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The joint's x-axis vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint's x-axis vector.
 
 ---
 
@@ -492,11 +492,11 @@ Returns the joint's local y-axis vector.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The joint's y-axis vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint's y-axis vector.
 
 ---
 
@@ -510,11 +510,11 @@ Returns the joint's local z-axis vector.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>joint</code> [<strong> joint </strong>]: The joint.
+- <code>joint</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The joint's z-axis vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint's z-axis vector.
 
 ---
 
@@ -529,7 +529,7 @@ A reversed bearing rotates counterclockwise.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>bearing</code> [<strong> joint </strong>]: The bearing.
+- <code>bearing</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The bearing.
 
 <strong>Returns:</strong> <br></br>
 
@@ -552,7 +552,7 @@ This method cancels the effects of [setTargetAngle](#setTargetAngle).
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>bearing</code> [<strong> joint </strong>]: The bearing.
+- <code>bearing</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The bearing.
 - <code>targetVelocity</code> [<strong> number </strong>]: The target velocity.
 - <code>maxImpulse</code> [<strong> number </strong>]: The max impulse.
 
@@ -573,7 +573,7 @@ This method cancels the effects of [setMotorVelocity](#setMotorVelocity).
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>bearing</code> [<strong> joint </strong>]: The bearing.
+- <code>bearing</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The bearing.
 - <code>targetAngle</code> [<strong> number </strong>]: The target angle.
 - <code>targetVelocity</code> [<strong> number </strong>]: The target velocity.
 - <code>maxImpulse</code> [<strong> number </strong>]: The max impulse.
@@ -594,7 +594,7 @@ This method cancels the effects of setMotorVelocity.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>piston</code> [<strong> joint </strong>]: The piston.
+- <code>piston</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The piston.
 - <code>targetLength</code> [<strong> number </strong>]: The target length.
 - <code>targetVelocity</code> [<strong> number </strong>]: The target velocity.
 - <code>maxImpulse</code> [<strong> number </strong>]: The max impulse.

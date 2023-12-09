@@ -32,11 +32,11 @@ Returns the state's facing direction.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -51,11 +51,11 @@ Returns the state's movement direction.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -72,7 +72,7 @@ Movement type can be "stand", "walk", "sprint" or "crouch".
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 
 <strong>Returns:</strong> <br></br>
 
@@ -91,7 +91,7 @@ Check if the state wants to jump.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 
 <strong>Returns:</strong> <br></br>
 
@@ -114,7 +114,7 @@ Can be used to determine if another state is allowed to be started.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 
 <strong>Returns:</strong> <br></br>
 
@@ -136,7 +136,7 @@ Should be called once every game tick while the state is active.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 - <code>dt</code> [<strong> number </strong>]: The delta time.
 
 ---
@@ -154,7 +154,7 @@ Should be called once every unit update, by the unit that owns the state, while 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 - <code>dt</code> [<strong> number </strong>]: The delta time.
 
 ---
@@ -170,7 +170,7 @@ Starts the state.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 
 ---
 
@@ -185,6 +185,6 @@ Stops the state.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AiState</code> [<strong> AiState </strong>]: The state.
+- <code>AiState</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The state.
 
 ---

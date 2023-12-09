@@ -33,7 +33,7 @@ Returns general information for a third person view animation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>name</code> [<strong> string </strong>]: The animation name.
 
 <strong>Returns:</strong> <br></br>
@@ -59,7 +59,7 @@ Returns the current weights for the tool's local camera settings.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -79,11 +79,11 @@ Returns the player's view/aim direction.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The aim direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The aim direction.
 
 ---
 
@@ -98,7 +98,7 @@ Returns general information for a first person view animation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>name</code> [<strong> string </strong>]: The animation name.
 
 <strong>Returns:</strong> <br></br>
@@ -124,12 +124,12 @@ Returns the world position for a bone in the first person view animation skeleto
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>joint</code> [<strong> string </strong>]: The name of the joint.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The joint position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint position.
 
 ---
 
@@ -143,7 +143,7 @@ Returns the tool's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -168,7 +168,7 @@ This is affected by sprinting, crouching, blocking, aiming, etc.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -187,11 +187,11 @@ Returns the movement velocity of the player.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The player's velocity.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The player's velocity.
 
 ---
 
@@ -205,11 +205,11 @@ Returns the player that owns the tool.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> player </strong>]: The tool's owner.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The tool's owner.
 
 ---
 
@@ -224,11 +224,11 @@ Returns the world position of the tool's owner.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The owner's world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The owner's world position.
 
 ---
 
@@ -244,11 +244,11 @@ This is the direction the player wants to move based on movement input.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The player's relative movement direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The player's relative movement direction.
 
 ---
 
@@ -263,12 +263,12 @@ Returns the world direction for a bone in the third person view animation skelet
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>bone</code> [<strong> string </strong>]: The bone name.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The bone direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The bone direction.
 
 ---
 
@@ -283,12 +283,12 @@ Returns the world position for a bone in the third person view animation skeleto
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>bone</code> [<strong> string </strong>]: The bone name.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The bone position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The bone position.
 
 ---
 
@@ -303,7 +303,7 @@ Returns whether the tool's owner is currently crouching.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -322,7 +322,7 @@ Returns whether the tool is equipped.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -342,7 +342,7 @@ Otherwise, the player is in third person view where the camera is behind the pla
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -361,7 +361,7 @@ Returns whether the player holding the tool is the same as the [Local Player](/d
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -380,7 +380,7 @@ Returns whether the tool's owner is currently standing on the ground.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -399,7 +399,7 @@ Returns whether the tool's owner is currently sprinting.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 <strong>Returns:</strong> <br></br>
 
@@ -419,7 +419,7 @@ Sprinting is normally blocked when the player is attacking, blocking, aiming, et
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>state</code> [<strong> bool </strong>]: Whether sprinting is blocked or not.
 
 ---
@@ -436,7 +436,7 @@ An alpha value of 0 makes the crosshair transparent.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>alpha</code> [<strong> number </strong>]: The alpha value.
 
 ---
@@ -455,7 +455,7 @@ A dispersion value of 0 is perfect accuracy, whereas 1 is the worst.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>fraction</code> [<strong> number </strong>]: The dispersion fraction.
 
 ---
@@ -471,8 +471,8 @@ Sets the tool's color in first person view.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
-- <code>color</code> [<strong> color </strong>]: The color.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color.
 
 ---
 
@@ -487,7 +487,7 @@ Sets the renderables (files containing model data) to be used for the character 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>renderables</code> [<strong> table </strong>]: The table containing the renderable filepaths.
 
 ---
@@ -504,7 +504,7 @@ This means the player won't be able to see <code>Press E to use</code> and simil
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>state</code> [<strong> bool </strong>]: Whether the text is suppressed or not.
 
 ---
@@ -520,7 +520,7 @@ Sets the current third person view movement animation to be used by the tool.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>name</code> [<strong> string </strong>]: The name.
 - <code>animation</code> [<strong> string </strong>]: The animation.
 
@@ -538,7 +538,7 @@ This is similar to crouching and normally occurs when the player is aiming.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>slowdown</code> [<strong> bool </strong>]: Whether the player is slowed down or not.
 
 ---
@@ -554,8 +554,8 @@ Sets the tool's color in third person view.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
-- <code>color</code> [<strong> color </strong>]: The color.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color.
 
 ---
 
@@ -570,7 +570,7 @@ Sets the renderables (files containing model data) to be used for the character 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>renderables</code> [<strong> table </strong>]: The table containing the renderable filepaths.
 
 ---
@@ -586,7 +586,7 @@ Updates a third person view animation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>name</code> [<strong> string </strong>]: The animation name.
 - <code>time</code> [<strong> number </strong>]: The time.
 - <code>weight</code> [<strong> number </strong>]: The weight.
@@ -604,10 +604,10 @@ Updates the third person view camera for the tool.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>distance</code> [<strong> number </strong>]: The distance.
 - <code>fov</code> [<strong> number </strong>]: The FOV.
-- <code>offset</code> [<strong> vec3 </strong>]: The offset position.
+- <code>offset</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The offset position.
 - <code>weight</code> [<strong> number </strong>]: The weight.
 
 ---
@@ -623,7 +623,7 @@ Updates a first person view animation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>name</code> [<strong> string </strong>]: The animation name.
 - <code>time</code> [<strong> number </strong>]: The time.
 - <code>weight</code> [<strong> number </strong>]: The weight.
@@ -642,9 +642,9 @@ Updates the first person view camera for the tool.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>fov</code> [<strong> number </strong>]: The FOV.
-- <code>offset</code> [<strong> vec3 </strong>]: The offset position.
+- <code>offset</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The offset position.
 - <code>weight</code> [<strong> number </strong>]: The weight.
 - <code>bobbing</code> [<strong> number </strong>]: The bobbing.
 
@@ -661,9 +661,9 @@ Sets the rotation and weight for a bone in the animation skeleton.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>name</code> [<strong> string </strong>]: The name.
-- <code>rotation</code> [<strong> vec3 </strong>]: The rotation.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The rotation.
 - <code>weight</code> [<strong> number </strong>]: The weight.
 
 ---
@@ -679,7 +679,7 @@ Updates the currently set third person view movement animation for the tool.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>time</code> [<strong> number </strong>]: The time.
 - <code>weight</code> [<strong> number </strong>]: The weight.
 

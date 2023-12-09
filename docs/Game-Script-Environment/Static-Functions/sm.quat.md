@@ -37,11 +37,11 @@ The angle is counterclockwise.
 <strong>Arguments:</strong> <br></br>
 
 - <code>angle</code> [<strong> number </strong>]: The rotation angle in radians.
-- <code>axis</code> [<strong> vec3 </strong>]: The axis vector to rotate around.
+- <code>axis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The axis vector to rotate around.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The quaternion for rotating angle radians around an axis.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The quaternion for rotating angle radians around an axis.
 
 ---
 
@@ -55,11 +55,11 @@ Create a new quaternion from an euler angle vector.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>euler</code> [<strong> vec3 </strong>]: The euler angle vector.
+- <code>euler</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The euler angle vector.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The quaternion.
 
 ---
 
@@ -75,11 +75,11 @@ This does the same as doing <code>quat * sm.vec3.new( 0, 0, 1 )</code>.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>quat</code> [<strong> quat </strong>]: The quaternion.
+- <code>quat</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The quaternion.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The at vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The at vector.
 
 ---
 
@@ -95,11 +95,11 @@ This does the same as doing <code>quat * sm.vec3.new( 1, 0, 0 )</code>.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>quat</code> [<strong> quat </strong>]: The quaternion.
+- <code>quat</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The quaternion.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The right vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The right vector.
 
 ---
 
@@ -115,11 +115,11 @@ This does the same as doing <code>quat * sm.vec3.new( 0, 1, 0 )</code>.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>quat</code> [<strong> quat </strong>]: The quaternion.
+- <code>quat</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The quaternion.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The up vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The up vector.
 
 ---
 
@@ -133,7 +133,7 @@ Creates a new identity quaternion.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The created quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The created quaternion.
 
 ---
 
@@ -147,11 +147,11 @@ Inverts the quaternion.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>quat</code> [<strong> quat </strong>]: The quaternion.
+- <code>quat</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The quaternion.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The inverted quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The inverted quaternion.
 
 ---
 
@@ -169,12 +169,12 @@ Creates a new quaternion from direction vectors.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>at</code> [<strong> vec3 </strong>]: The forward vector.
-- <code>up</code> [<strong> vec3 </strong>]: The up vector.
+- <code>at</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The forward vector.
+- <code>up</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The up vector.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The quaternion.
 
 ---
 
@@ -195,7 +195,7 @@ Creates a new quaternion.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The created quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The created quaternion.
 
 ---
 
@@ -209,11 +209,11 @@ Rounds the quaternion rotation into 90 degree steps.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>quat</code> [<strong> quat </strong>]: The quaternion.
+- <code>quat</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The quaternion.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The rounded quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rounded quaternion.
 
 ---
 
@@ -227,12 +227,12 @@ Performs a spherical linear interpolation between two quaternion.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>quat1</code> [<strong> quat </strong>]: The first quaternion.
-- <code>quat2</code> [<strong> quat </strong>]: The second quaternion.
+- <code>quat1</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The first quaternion.
+- <code>quat2</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The second quaternion.
 - <code>t</code> [<strong> number </strong>]: The Interpolation amount between the two inputs.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The interpolated quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The interpolated quaternion.
 
 ---

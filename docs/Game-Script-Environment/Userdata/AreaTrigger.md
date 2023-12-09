@@ -39,12 +39,12 @@ The <code>onEnter</code> event is triggered when an object enters the trigger ar
 
 The callback receives:
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>trigger</code> [<strong> AreaTrigger </strong>]: The area trigger instance.
+- <code>trigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The area trigger instance.
 - <code>results</code> [<strong> table </strong>]: A table of objects that entered the trigger area.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 - <code>callback</code> [<strong> string </strong>]: 	The name of the Lua function to bind.
 - <code>object</code> [<strong> table </strong>]: The object that will receive the callback. (optional)
 
@@ -79,12 +79,12 @@ The <code>onExit</code> event is triggered when an object leaves the trigger are
 
 The callback receives:
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>trigger</code> [<strong> AreaTrigger </strong>]: The area trigger instance.
+- <code>trigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The area trigger instance.
 - <code>results</code> [<strong> table </strong>]: A table of objects that left the trigger area.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 - <code>callback</code> [<strong> string </strong>]: 	The name of the Lua function to bind.
 - <code>object</code> [<strong> table </strong>]: The object that will receive the callback. (optional)
 
@@ -119,12 +119,12 @@ The <code>onStay</code> event is triggered every tick as long as an object is st
 
 The callback receives:
 - <code>self</code> [<strong> table </strong>]: The class instance.
-- <code>trigger</code> [<strong> AreaTrigger </strong>]: The area trigger instance.
+- <code>trigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The area trigger instance.
 - <code>results</code> [<strong> table </strong>]: A table of objects that are in the trigger area.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 - <code>callback</code> [<strong> string </strong>]: 	The name of the Lua function to bind.
 - <code>object</code> [<strong> table </strong>]: The object that will receive the callback. (optional)
 
@@ -157,7 +157,7 @@ The <code>onProjectile</code> event is triggered if a projectile collides with t
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 - <code>callback</code> [<strong> string </strong>]: 	The name of the Lua function to bind.
 - <code>object</code> [<strong> table </strong>]: The object that will receive the callback. (optional)
 
@@ -173,7 +173,7 @@ Gets the contents of the area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
@@ -191,11 +191,11 @@ Returns the attached host [interactable](/docs/Game-Script-Environment/Userdata/
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> interactable </strong>]: The area trigger's host interactable.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The area trigger's host interactable.
 
 ---
 
@@ -209,7 +209,7 @@ Returns the id of the area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
@@ -227,16 +227,16 @@ Returns the shapes inside the trigger area.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
 - [<strong> table </strong>]: A table containing all Shapes that are inside the AreaTrigger, each contained in the following data structure:
-  - <code>Shape</code> [<strong> Shape </strong>]: The Shape.
-  - <code>triggerWorldPosition</code> [<strong> Vec3 </strong>]
-  - <code>triggerLocalPosition</code> [<strong> Vec3 </strong>]
-  - <code>shapeWorldPosition</code> [<strong> Vec3 </strong>]
-  - <code>shapeLocalPosition</code> [<strong> Vec3 </strong>]
+  - <code>Shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The Shape.
+  - <code>triggerWorldPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]
+  - <code>triggerLocalPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]
+  - <code>shapeWorldPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]
+  - <code>shapeLocalPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]
 
 ---
 
@@ -250,11 +250,11 @@ Returns the size of an area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The area trigger's size.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The area trigger's size.
 
 ---
 
@@ -268,7 +268,7 @@ Returns the userdata set on the area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
@@ -286,11 +286,11 @@ Returns the world max corner position of an area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The area trigger's max corner position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The area trigger's max corner position.
 
 ---
 
@@ -304,11 +304,11 @@ Returns the world min corner position of an area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The area trigger's min corner position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The area trigger's min corner position.
 
 ---
 
@@ -322,11 +322,11 @@ Returns the world position of an area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The area trigger's world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The area trigger's world position.
 
 ---
 
@@ -340,11 +340,11 @@ Returns the world rotation of an area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The area trigger's world rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The area trigger's world rotation.
 
 ---
 
@@ -358,7 +358,7 @@ Returns true if the AreaTrigger is in contact with destructable terrain.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 
 <strong>Returns:</strong> <br></br>
 
@@ -378,7 +378,7 @@ trigger area with a call to [AreaTrigger:getShapes()](#getShapes)
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
 - <code>detectShapes</code> [<strong> bool </strong>]: Whether shape detection is on or off.
 
 ---
@@ -393,8 +393,8 @@ Sets the new size of an area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
-- <code>size</code> [<strong> vec3 </strong>]: The area trigger's new size.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
+- <code>size</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The area trigger's new size.
 
 ---
 
@@ -408,8 +408,8 @@ Sets the new world position of an area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
-- <code>position</code> [<strong> vec3 </strong>]: The area trigger's new world position.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The area trigger's new world position.
 
 ---
 
@@ -423,8 +423,8 @@ Sets the new world rotation of an area trigger.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>AreaTrigger</code> [<strong> AreaTrigger </strong>]: The AreaTrigger.
-- <code>rotation</code> [<strong> quat </strong>]: The area trigger's new world rotation.
+- <code>AreaTrigger</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The AreaTrigger.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The area trigger's new world rotation.
 
 ---
 

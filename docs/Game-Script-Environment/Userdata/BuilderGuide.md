@@ -38,7 +38,7 @@ Destroys the guide.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>builderGuide</code> [<strong> builderGuide </strong>]: The guide.
+- <code>builderGuide</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BuilderGuide"> BuilderGuide </a> </strong>]: The guide.
 
 ---
 
@@ -52,7 +52,7 @@ Returns the stage index of the guide.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>builderGuide</code> [<strong> builderGuide </strong>]: The guide.
+- <code>builderGuide</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BuilderGuide"> BuilderGuide </a> </strong>]: The guide.
 
 <strong>Returns:</strong> <br></br>
 
@@ -70,7 +70,7 @@ Returns the id of the guide.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>builderGuide</code> [<strong> builderGuide </strong>]: The guide.
+- <code>builderGuide</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BuilderGuide"> BuilderGuide </a> </strong>]: The guide.
 
 <strong>Returns:</strong> <br></br>
 
@@ -88,7 +88,7 @@ Returns the completion status of the guide.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>builderGuide</code> [<strong> builderGuide </strong>]: The guide.
+- <code>builderGuide</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BuilderGuide"> BuilderGuide </a> </strong>]: The guide.
 
 <strong>Returns:</strong> <br></br>
 
@@ -107,7 +107,7 @@ Should be called whenever the root [Shape](/docs/Game-Script-Environment/Userdat
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>builderGuide</code> [<strong> builderGuide </strong>]: The guide.
+- <code>builderGuide</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BuilderGuide"> BuilderGuide </a> </strong>]: The guide.
 
 ---
 

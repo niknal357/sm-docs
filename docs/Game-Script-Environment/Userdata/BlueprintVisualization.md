@@ -32,7 +32,7 @@ Destroys a blueprint visualization.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>blueprintVisualization</code> [<strong> blueprintVisualization </strong>]: The blueprint visualization.
+- <code>blueprintVisualization</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BlueprintVisualization"> BlueprintVisualization </a> </strong>]: The blueprint visualization.
 
 ---
 
@@ -47,8 +47,8 @@ Sets the world position of a blueprint visualization.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>blueprintVisualization</code> [<strong> blueprintVisualization </strong>]: The blueprint visualization.
-- <code>position</code> [<strong> vec3 </strong>]: The world position.
+- <code>blueprintVisualization</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BlueprintVisualization"> BlueprintVisualization </a> </strong>]: The blueprint visualization.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world position.
 
 ---
 
@@ -63,8 +63,8 @@ Sets the rotation of a blueprint visualization.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>blueprintVisualization</code> [<strong> blueprintVisualization </strong>]: The blueprint visualization.
-- <code>rotation</code> [<strong> quat </strong>]: The rotation.
+- <code>blueprintVisualization</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BlueprintVisualization"> BlueprintVisualization </a> </strong>]: The blueprint visualization.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation.
 
 ---
 
@@ -79,8 +79,8 @@ Sets the scale of a blueprint visualization.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>blueprintVisualization</code> [<strong> blueprintVisualization </strong>]: The blueprint visualization.
-- <code>scale</code> [<strong> vec3 </strong>]: The scale.
+- <code>blueprintVisualization</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BlueprintVisualization"> BlueprintVisualization </a> </strong>]: The blueprint visualization.
+- <code>scale</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The scale.
 
 ---
 
@@ -98,7 +98,7 @@ For performance reasons, this should not be called every tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>blueprintVisualization</code> [<strong> blueprintVisualization </strong>]: The blueprint visualization.
+- <code>blueprintVisualization</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/BlueprintVisualization"> BlueprintVisualization </a> </strong>]: The blueprint visualization.
 
 ---
 

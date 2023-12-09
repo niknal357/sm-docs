@@ -35,7 +35,7 @@ Creates a new color object.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> color </strong>]: The created color object.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The created color object.
 
 ---
 

@@ -138,7 +138,7 @@ Can only be used in a <code>server_onCellLoaded</code> callback.
 
 - <code>x</code> [<strong> int </strong>]: The X coordinate.
 - <code>y</code> [<strong> int </strong>]: The Y coordinate.
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid of the interactable(s).
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the interactable(s).
 
 <strong>Returns:</strong> <br></br>
 

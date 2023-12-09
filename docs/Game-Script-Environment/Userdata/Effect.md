@@ -45,7 +45,7 @@ The callback receives:
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 - <code>methodName</code> [<strong> string </strong>]: The name of the callback function.
 - <code>params</code> [<strong> any </strong>]: Parameter object passed to the callback (Optional).
 - <code>reference</code> [<strong> table </strong>]: Table to receive the callback (Optional).
@@ -63,7 +63,7 @@ Clears all Lua effect callbacks.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 ---
 
@@ -77,7 +77,7 @@ Stops and destroys the effect.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 ---
 
@@ -94,7 +94,7 @@ Will return nil if the effect is not playing.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 <strong>Returns:</strong> <br></br>
 
@@ -115,11 +115,11 @@ Will return nil if the effect is not playing.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 
 ---
 
@@ -136,11 +136,11 @@ Will return nil if the effect is not playing.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation.
 
 ---
 
@@ -154,7 +154,7 @@ Returns the id of the effect.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 <strong>Returns:</strong> <br></br>
 
@@ -173,7 +173,7 @@ Returns whether the effect has an active camera effect.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 <strong>Returns:</strong> <br></br>
 
@@ -192,7 +192,7 @@ Returns whether the effect is done, meaning that all effect instances have finis
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 <strong>Returns:</strong> <br></br>
 
@@ -211,7 +211,7 @@ Returns whether the effect is currently playing.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 <strong>Returns:</strong> <br></br>
 
@@ -230,7 +230,7 @@ Sets the effect to start playing and repeating automatically.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 - <code>enabled</code> [<strong> bool </strong>]: Whether the effect repeats automatically or not.
 
 ---
@@ -250,8 +250,8 @@ This does not work if the effect was created without a host interactable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
-- <code>position</code> [<strong> vec3 </strong>]: The offset position.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The offset position.
 
 ---
 
@@ -270,8 +270,8 @@ This does not work if the effect was created without a host interactable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
-- <code>rotation</code> [<strong> quat </strong>]: The offset rotation.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The offset rotation.
 
 ---
 
@@ -286,7 +286,7 @@ Sets a named parameter value on the effect.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 - <code>name</code> [<strong> string </strong>]: The parameter name.
 - <code>value</code> [<strong> any </strong>]: The parameter value.
 
@@ -335,8 +335,8 @@ This does not work if the effect was created with a host interactable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
-- <code>position</code> [<strong> vec3 </strong>]: The position.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 
 ---
 
@@ -355,8 +355,8 @@ This does not work if the effect was created with a host interactable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
-- <code>rotation</code> [<strong> quat </strong>]: The rotation.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation.
 
 ---
 
@@ -375,8 +375,8 @@ Only applies to effect renderables.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
-- <code>scale</code> [<strong> vec3 </strong>]: The scale.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
+- <code>scale</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The scale.
 
 ---
 
@@ -391,7 +391,7 @@ Sets the effect to be active during specific period of the day / night cycle.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 - <code>enabled</code> [<strong> bool </strong>]: Whether this feature is enabled or not.
 - <code>startTime</code> [<strong> number </strong>]: The normalized start time.
 - <code>endTime</code> [<strong> number </strong>]: The normalized end time.
@@ -415,8 +415,8 @@ This does not work if the effect was created with a host interactable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
-- <code>velocity</code> [<strong> vec3 </strong>]: The velocity.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The velocity.
 
 ---
 
@@ -431,8 +431,8 @@ Sets the effect's world.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
-- <code>world</code> [<strong> world </strong>]: The world. Defaults to world from script context.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world. Defaults to world from script context.
 
 ---
 
@@ -447,7 +447,7 @@ Starts playing the effect.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 ---
 
@@ -462,7 +462,7 @@ Stops playing the effect.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 ---
 
@@ -477,7 +477,7 @@ Stops playing the effect, letting sound finish before destroying the effect.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 ---
 
@@ -492,7 +492,7 @@ Immediately stops playing the effect. Any playing sound effects will stop immedi
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>effect</code> [<strong> effect </strong>]: The effect.
+- <code>effect</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Effect"> Effect </a> </strong>]: The effect.
 
 ---
 

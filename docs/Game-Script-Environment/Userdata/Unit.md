@@ -21,7 +21,7 @@ A userdata object representing a <strong>unit</strong> in the game.
 
 <strong>Values:</strong>
 
-- <code>character</code> [<strong> character </strong>] <br></br>
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>] <br></br>
 
 	- <code>Get</code>: (Server-Only) The unit's character.
 
@@ -67,12 +67,12 @@ Creates an AI state from a name (See [AiState](/docs/Game-Script-Environment/Use
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 - <code>name</code> [<strong> string </strong>]: The name of the state.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> AiState </strong>]: The created AI state.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/AiState"> AiState </a> </strong>]: The created AI state.
 
 ---
 
@@ -87,7 +87,7 @@ Destroys the unit.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 
 ---
 
@@ -102,11 +102,11 @@ Returns the unit's character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 
 <strong>Return:</strong> <br></br>
 
-- [<strong> character </strong>]: The unit's character.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The unit's character.
 
 ---
 
@@ -121,11 +121,11 @@ Returns the unit's current facing direction.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 
 <strong>Return:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The unit's facing direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The unit's facing direction.
 
 ---
 
@@ -140,11 +140,11 @@ Returns the unit's current movement direction.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 
 <strong>Return:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The unit's movement direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The unit's movement direction.
 
 ---
 
@@ -159,7 +159,7 @@ Returns the unit's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 
 <strong>Return:</strong> <br></br>
 
@@ -178,7 +178,7 @@ Returns the unit's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 
 <strong>Return:</strong> <br></br>
 
@@ -199,7 +199,7 @@ The event is received by the [client_onEvent](/docs/Game-Script-Environment/Clas
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 - <code>event</code> [<strong> string </strong>]: The event.
 
 ---
@@ -215,8 +215,8 @@ Sets the unit's facing direction.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
-- <code>dir</code> [<strong> vec3 </strong>]: The direction.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
+- <code>dir</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -231,7 +231,7 @@ Notifies the unit that it heard a sound.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 - <code>noiseScale</code> [<strong> number </strong>]: The noise amount.
 
 ---
@@ -247,8 +247,8 @@ Sets the unit's movement direction.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
-- <code>dir</code> [<strong> vec3 </strong>]: The direction.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
+- <code>dir</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -265,7 +265,7 @@ Valid types are "stand", "walk", "sprint" and "crouch"
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 - <code>type</code> [<strong> string </strong>]: The movement type.
 
 ---
@@ -281,7 +281,7 @@ Sets the unit's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 - <code>data</code> [<strong> table </strong>]: The data to set.
 
 ---
@@ -297,7 +297,7 @@ Sets the unit to jump.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 - <code>state</code> [<strong> bool </strong>]: Whether the unit should jump or not.
 
 ---
@@ -313,7 +313,7 @@ Sets the whisker data for obstacle avoidance.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 - <code>whiskerCount</code> [<strong> int </strong>]: The whisker count.
 - <code>maxAngle</code> [<strong> number </strong>]: The max angle.
 - <code>startLength</code> [<strong> number </strong>]: The start length.

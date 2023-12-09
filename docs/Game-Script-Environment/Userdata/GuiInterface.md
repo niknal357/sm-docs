@@ -41,7 +41,7 @@ Adds an item to a grid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>item</code> [<strong> table </strong>]: The item.
 
@@ -58,7 +58,7 @@ Adds an item to a grid from a JSON file.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>jsonPath</code> [<strong> string </strong>]: The path to the JSON file.
 - <code>additionalData</code> [<strong> table </strong>]: Additional data (optional).
@@ -76,7 +76,7 @@ Appends an item to a list.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>listName</code> [<strong> string </strong>]: The name of the list.
 - <code>itemName</code> [<strong> string </strong>]: The name of the item.
 - <code>data</code> [<strong> table </strong>]: Table of data to store.
@@ -94,7 +94,7 @@ Clears a grid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 
 ---
@@ -110,7 +110,7 @@ Clears a list.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>listName</code> [<strong> string </strong>]: The name of the list.
 
 ---
@@ -126,7 +126,7 @@ Closes the GUI.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 
 ---
 
@@ -141,7 +141,7 @@ Creates a dropdown menu at the specified widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widgetName</code> [<strong> string </strong>]: The name of the widget.
 - <code>functionName</code> [<strong> string </strong>]: The name of the callback function.
 - <code>options</code> [<strong> table </strong>]: The options in the dropdown menu.
@@ -159,7 +159,7 @@ Creates a grid from a table.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>data</code> [<strong> table </strong>]: The grid data (see table below).
 
@@ -186,7 +186,7 @@ Creates a horizontal slider with the specified widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
 - <code>range</code> [<strong> number </strong>]: The slider range.
 - <code>value</code> [<strong> number </strong>]: The slider position.
@@ -206,7 +206,7 @@ Creates a vertical slider with the specified widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
 - <code>range</code> [<strong> number </strong>]: The slider range.
 - <code>value</code> [<strong> number </strong>]: The slider position.
@@ -225,7 +225,7 @@ Destroys the guiInterface object.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 
 ---
 
@@ -240,7 +240,7 @@ Returns whether the GUI is currently open.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 
 <strong>Returns:</strong> <br></br>
 
@@ -259,7 +259,7 @@ Opens the GUI.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 
 ---
 
@@ -274,7 +274,7 @@ Plays an effect at a widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
 - <code>effect</code> [<strong> string </strong>]: The name of the effect.
 - <code>restart</code> [<strong> bool </strong>]: Whether the effect should restart or not.
@@ -292,7 +292,7 @@ Plays an effect at a widget inside a grid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>index</code> [<strong> int </strong>]: The index of the grid.
 - <code>effectName</code> [<strong> string </strong>]: The name of the effect.
@@ -317,7 +317,7 @@ The callback is called when the button widget is clicked.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>button</code> [<strong> string </strong>]: The name of the button widget.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
@@ -334,7 +334,7 @@ Sets the state of a button widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>button</code> [<strong> string </strong>]: The name of the button widget.
 - <code>state</code> [<strong> bool </strong>]: The state to set.
 
@@ -351,9 +351,9 @@ Sets the color of a widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
-- <code>color</code> [<strong> color </strong>]: The color to set.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color to set.
 
 ---
 
@@ -368,9 +368,9 @@ Sets a container to a grid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 ---
 
@@ -385,7 +385,7 @@ Sets multiple containers to a grid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>container</code> [<strong> table </strong>]: The table of containers.
 
@@ -402,7 +402,7 @@ Sets data to a widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
 - <code>data</code> [<strong> table </strong>]: The data.
 
@@ -419,7 +419,7 @@ Sets the fade range for a world GUI.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>range</code> [<strong> number </strong>]: The fade range.
 
 ---
@@ -435,7 +435,7 @@ Sets a widget to receive key focus.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
 
 ---
@@ -454,7 +454,7 @@ The callback is called when the button widget is clicked.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>buttonName</code> [<strong> string </strong>]: The name of the button widget.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
@@ -471,7 +471,7 @@ Sets an item in a grid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>index</code> [<strong> int </strong>]: The item index.
 - <code>item</code> [<strong> table </strong>]: The item.
@@ -489,7 +489,7 @@ Sets a callback to be called when a grid item is changed.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
@@ -506,7 +506,7 @@ Sets a callback to be called when a grid widget gets mouse focus.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>buttonName</code> [<strong> string </strong>]: The name of the button.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
@@ -523,7 +523,7 @@ Sets the size of a grid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>size</code> [<strong> int </strong>]: The size.
 
@@ -540,9 +540,9 @@ Sets the host for a world gui.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
-- <code>host</code> [<strong> shape/character </strong>]: The GUI host.
+- <code>host</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/character </strong>]: The GUI host.
 - <code>joint</code> [<strong> string </strong>]: The joint (optional).
 
 ---
@@ -558,9 +558,9 @@ Sets the icon image to a shape from a uuid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>ItemBox</code> [<strong> string </strong>]: The name of the ItemBox widget.
-- <code>uuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 
 ---
 
@@ -575,7 +575,7 @@ Sets the image of an imagebox.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>ImageBox</code> [<strong> string </strong>]: The name of the ImageBox widget.
 - <code>image</code> [<strong> string </strong>]: The path to the image file.
 
@@ -592,7 +592,7 @@ Sets the resource, group and item name on an ImageBox widget
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>ImageBox</code> [<strong> string </strong>]: The name of the ImageBox widget.
 - <code>itemResource</code> [<strong> string </strong>]: The item resource.
 - <code>itemGroup</code> [<strong> string </strong>]: The item group.
@@ -611,7 +611,7 @@ Sets a callback to be called when a list selection is changed.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>listName</code> [<strong> string </strong>]: The name of the list.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
@@ -628,7 +628,7 @@ Sets the maximum render distance for a world GUI.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>distance</code> [<strong> number </strong>]: The max render distance.
 
 ---
@@ -644,9 +644,9 @@ Sets a mesh preview to display an item from uuid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widgetName</code> [<strong> string </strong>]: The name of the widget.
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid of the item to display.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the item to display.
 
 ---
 
@@ -661,7 +661,7 @@ Sets a callback to be called when the GUI is closed.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
 ---
@@ -677,7 +677,7 @@ Sets if a world GUI requires line of sight to be visible.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>state</code> [<strong> bool </strong>]: Whether the GUI requires line of sight or not.
 
 ---
@@ -693,7 +693,7 @@ guiInterface:setSelectedDropDownItem()
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 
 ---
 
@@ -708,7 +708,7 @@ Selects an item in a list.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>listName</code> [<strong> string </strong>]: The name of the list.
 - <code>itemName</code> [<strong> string </strong>]: The name of the item.
 
@@ -725,7 +725,7 @@ Sets a callback to be called when the slider is moved.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>sliderName</code> [<strong> string </strong>]: The name of the slider.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
@@ -742,7 +742,7 @@ Sets the position and range of a slider.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>sliderName</code> [<strong> string </strong>]: The name of the slider.
 - <code>range</code> [<strong> unsigned_int </strong>]: The range of the slider.
 - <code>position</code> [<strong> unsigned_int </strong>]: The position of the slider.
@@ -760,7 +760,7 @@ Sets the position of a slider.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>sliderName</code> [<strong> string </strong>]: The name of the slider.
 - <code>position</code> [<strong> int </strong>]: The position of the slider.
 
@@ -777,7 +777,7 @@ Sets the range of a slider.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>sliderName</code> [<strong> string </strong>]: The name of the slider.
 - <code>range</code> [<strong> int </strong>]: The range of the slider.
 
@@ -794,7 +794,7 @@ Sets the range limit of a slider.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>sliderName</code> [<strong> string </strong>]: The name of the slider.
 - <code>limit</code> [<strong> int </strong>]: The range limit of the slider.
 
@@ -811,7 +811,7 @@ Sets text on a widget that supports it.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
 - <code>text</code> [<strong> string </strong>]: The text to set.
 
@@ -829,7 +829,7 @@ text into an EditBox widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>editBoxName</code> [<strong> string </strong>]: The name of the EditBox.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
@@ -846,7 +846,7 @@ Sets a callback to be called when the text in an EditBox widget changes.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>editBoxName</code> [<strong> string </strong>]: The name of the EditBox.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function.
 
@@ -863,7 +863,7 @@ Sets whether a widget is visible or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
 - <code>state</code> [<strong> bool </strong>]: Whether the widget is visible or not.
 
@@ -880,9 +880,9 @@ Sets the world position for a world GUI.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
-- <code>pos</code> [<strong> vec3 </strong>]: The position.
-- <code>world</code> [<strong> world </strong>]: The world, defaults to same as the script.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
+- <code>pos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world, defaults to same as the script.
 
 ---
 
@@ -897,7 +897,7 @@ Stops an effect playing at a widget.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
 - <code>effect</code> [<strong> string </strong>]: The name of the effect.
 - <code>immediate</code> [<strong> bool </strong>]: Whether the effect should stop immediately or not.
@@ -915,7 +915,7 @@ Stops an effect playing inside a grid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>gridName</code> [<strong> string </strong>]: The name of the grid.
 - <code>index</code> [<strong> int </strong>]: The grid index.
 - <code>effect</code> [<strong> string </strong>]: The name of the effect.
@@ -933,7 +933,7 @@ Adds a quest to the quest tracker.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>name</code> [<strong> string </strong>]: The name of the quest.
 - <code>title</code> [<strong> string </strong>]: The quest title to be displayed in the tracker.
 - <code>mainQuest</code> [<strong> bool </strong>]: Whether the quest is a main quest (displayed on top in the tracker) or not.
@@ -962,7 +962,7 @@ Removes a quest from the quest tracker.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> guiInterface </strong>]: The guiInterface.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>name</code> [<strong> string </strong>]: The name of the quest.
 
 ---

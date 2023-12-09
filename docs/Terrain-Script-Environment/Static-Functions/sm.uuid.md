@@ -27,12 +27,12 @@ Generates a named (version 5) uuid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>namespace</code> [<strong> uuid </strong>]: A uuid namespace for the name. The namespace makes sure any equal name from different namespaces do not collide.
+- <code>namespace</code> [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: A uuid namespace for the name. The namespace makes sure any equal name from different namespaces do not collide.
 - <code>name</code> [<strong> string </strong>]: A name, to generate a uuid from. Provided the same namespace and name, the uuid will be the same.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> uuid </strong>]: The created uuid.
+- [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The created uuid.
 
 ---
 
@@ -46,7 +46,7 @@ Generates a random (version 4) uuid.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> uuid </strong>]: The generated uuid.
+- [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The generated uuid.
 
 ---
 
@@ -60,7 +60,7 @@ Creates a nil uuid {00000000-0000-0000-0000-000000000000}.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> uuid </strong>]: The created uuid.
+- [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The created uuid.
 
 ---
 
@@ -78,7 +78,7 @@ Creates a uuid from a string or generates a random uuid (version 4).
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> uuid </strong>]: The created uuid.
+- [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The created uuid.
 
 ---
 

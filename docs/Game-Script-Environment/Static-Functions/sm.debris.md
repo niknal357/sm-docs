@@ -24,12 +24,12 @@ Create visual debris of a [shape](/docs/Game-Script-Environment/Userdata/Shape) 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The shape uuid.
-- <code>position</code> [<strong> vec3 </strong>]: The position.
-- <code>rotation</code> [<strong> quat </strong>]: The rotation.
-- <code>velocity</code> [<strong> vec3 </strong>]: The linear velocity.
-- <code>angularVelocity</code> [<strong> vec3 </strong>]: The angular velocity in radians per second around the axes (x,y,z). Defaults to zero.
-- <code>color</code> [<strong> color </strong>]: The color. Defaults to the shape's default color.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The shape uuid.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation.
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The linear velocity.
+- <code>angularVelocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The angular velocity in radians per second around the axes (x,y,z). Defaults to zero.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color. Defaults to the shape's default color.
 - <code>time</code> [<strong> number </strong>]: The time after which the debris disappears. Defaults to 10 seconds.
 
 ---

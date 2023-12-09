@@ -21,13 +21,13 @@ A userdata object representing a <strong>character</strong> in the game.
 	- <code>Set</code>: (Client-Only) Sets the character's client public data.
 
 
-- <code>color</code> [<strong> color </strong>] <br></br>
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>] <br></br>
 
 	- <code>Get</code>: The character's color.
 	- <code>Set</code>: (Server-Only) Sets the character's color.
 
 
-- <code>direction</code> [<strong> vec3 </strong>] <br></br>
+- <code>direction</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The character's view/aim direction.
 
@@ -54,12 +54,12 @@ A userdata object representing a <strong>character</strong> in the game.
 	- <code>Set</code>: (Server-Only) Sets the character's server public data.
 
 
-- <code>velocity</code> [<strong> vec3 </strong>] <br></br>
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The velocity of the character.
 
 
-- <code>worldPosition</code> [<strong> vec3 </strong>] <br></br>
+- <code>worldPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The world position of the character.
 
@@ -83,7 +83,7 @@ Adds a renderable (file containing model data) to be used for the character in t
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>renderable</code> [<strong> string </strong>]: Path to the renderable file.
 
 ---
@@ -98,8 +98,8 @@ Applies an impulse to the character's tumbling shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
-- <code>impulse</code> [<strong> vec3 </strong>]: The impulse.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
+- <code>impulse</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The impulse.
 
 ---
 
@@ -113,7 +113,7 @@ Binds the character's animation to a callback function.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>animationName</code> [<strong> string </strong>]: The name of the animation.
 - <code>triggerTime</code> [<strong> number </strong>]: The required time that will have elapsed in the animation when the callback is triggered.
 - <code>callback</code> [<strong> string </strong>]: The name of the Lua function to bind.
@@ -130,7 +130,7 @@ Returns the set of active animations.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -149,7 +149,7 @@ character:getAnimationInfo( name )
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>name</code> [<strong> string </strong>]: The name.
 
 <strong>Returns:</strong> <br></br>
@@ -168,7 +168,7 @@ Returns whether the character will float or sink in liquid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -186,11 +186,11 @@ Returns the uuid of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> uuid </strong>]: The character's UUID.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The character's UUID.
 
 ---
 
@@ -205,7 +205,7 @@ Returns client public data from the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -223,11 +223,11 @@ Returns the base color of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> color </strong>]: The character's color.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The character's color.
 
 ---
 
@@ -241,7 +241,7 @@ Returns the radius around the character where it can be heard.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -259,7 +259,7 @@ Returns the current movement speed of the character depending on state and multi
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -277,11 +277,11 @@ Returns the direction in which the character is viewing or aiming.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The character's view direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The character's view direction.
 
 ---
 
@@ -296,7 +296,7 @@ Returns the character's glow multiplier.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -314,7 +314,7 @@ Returns the height of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -332,7 +332,7 @@ Returns the id of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -350,11 +350,11 @@ Returns the [Interactable](/docs/Game-Script-Environment/Userdata/Interactable) 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> interactable </strong>]: The interactable.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 ---
 
@@ -368,7 +368,7 @@ Returns the mass of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -386,7 +386,7 @@ Returns the current fraction multiplier applied on the character's movement spee
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -404,11 +404,11 @@ Returns the player controlling the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> player </strong>]: The character's player.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The character's player.
 
 ---
 
@@ -423,7 +423,7 @@ Returns character's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -441,7 +441,7 @@ Returns the radius of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -460,11 +460,11 @@ Defaults to a zero vector when no contact is found.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The character's surface normal.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The character's surface normal.
 
 ---
 
@@ -478,12 +478,12 @@ Returns the world position for a bone in the third person view animation skeleto
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>jointName</code> [<strong> string </strong>]: The joint name.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The joint position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint position.
 
 ---
 
@@ -497,12 +497,12 @@ Returns the world rotation for a bone in the third person view animation skeleto
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>jointName</code> [<strong> string </strong>]: The joint name.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The joint rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The joint rotation.
 
 ---
 
@@ -516,11 +516,11 @@ Returns the extent of the characters tumbling shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The tumbling shape's extent.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The tumbling shape's extent.
 
 ---
 
@@ -534,11 +534,11 @@ Returns the linear velocity of the characters tumbling shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The tumbling shape's linear velocity.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The tumbling shape's linear velocity.
 
 ---
 
@@ -552,11 +552,11 @@ Returns the world position of the characters tumbling shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The tumbling shape's world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The tumbling shape's world position.
 
 ---
 
@@ -570,11 +570,11 @@ Returns the world rotation of the characters tumbling shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The tumbling shape's world rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The tumbling shape's world rotation.
 
 ---
 
@@ -588,11 +588,11 @@ Returns the unit controlling the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> unit </strong>]: The unit controlling the character.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit controlling the character.
 
 ---
 
@@ -606,11 +606,11 @@ Returns the velocity of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The character's velocity.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The character's velocity.
 
 ---
 
@@ -624,11 +624,11 @@ Returns the world the character exists in.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> world </strong>]: The character's world.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The character's world.
 
 ---
 
@@ -642,11 +642,11 @@ Returns the world position of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The character's world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The character's world position.
 
 ---
 
@@ -660,7 +660,7 @@ Returns whether the character is currently aiming with a weapon.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -678,7 +678,7 @@ Returns whether the character is currently climbing.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -696,7 +696,7 @@ Returns whether the character is currently crouching.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -714,7 +714,7 @@ Returns true if the character color has its default color.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -732,7 +732,7 @@ Returns whether the character is currently diving.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -750,7 +750,7 @@ Returns whether the character is currently downed.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -768,7 +768,7 @@ Returns whether the character is currently standing on the ground.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -786,7 +786,7 @@ Returns whether the character belongs to a player.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -804,7 +804,7 @@ Returns whether the character is currently sprinting.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -822,7 +822,7 @@ Returns whether the character is currently swimming.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -840,7 +840,7 @@ Returns whether the character is currently tumbling.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 <strong>Returns:</strong> <br></br>
 
@@ -858,7 +858,7 @@ Removes all of the character's animation callbacks.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 ---
 
@@ -873,7 +873,7 @@ Removes a renderable (file containing model data) that was used for the characte
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>renderable</code> [<strong> string </strong>]: Path to the renderable file.
 
 ---
@@ -892,7 +892,7 @@ when set to true the animations will play while tumbling.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>allow</code> [<strong> bool </strong>]: Whether animations are allowed or not.
 
 ---
@@ -908,7 +908,7 @@ Sets the character's client public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>data</code> [<strong> table </strong>]: The client public data.
 
 ---
@@ -924,7 +924,7 @@ Sets whether the character is climbing.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>state</code> [<strong> bool </strong>]: Whether the character is climbing or not.
 
 ---
@@ -940,8 +940,8 @@ Sets the character's color.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
-- <code>color</code> [<strong> color </strong>]: The color.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color.
 
 ---
 
@@ -956,7 +956,7 @@ Sets whether the character is diving.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>state</code> [<strong> bool </strong>]: Whether the character is diving or not.
 
 ---
@@ -972,7 +972,7 @@ Sets whether the character is downed.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>state</code> [<strong> bool </strong>]: Whether the character is downed or not.
 
 ---
@@ -988,7 +988,7 @@ Sets a value to multiply the glow from asg texture with.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>value</code> [<strong> number </strong>]: The glow multiplier (0.0 - 1.0).
 
 ---
@@ -1004,8 +1004,8 @@ Set it to <code>nil</code> to unlock.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 
 <strong>Returns:</strong> <br></br>
 
@@ -1023,7 +1023,7 @@ Sets the movement effect set.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>filepath</code> [<strong> string </strong>]: The effectset file path.
 
 ---
@@ -1038,7 +1038,7 @@ Sets a fraction multiplier to the character's movement speed.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>fraction</code> [<strong> number </strong>]: The movement speed fraction.
 
 ---
@@ -1056,7 +1056,7 @@ For a value of 0 no movement animations will play, for a value of 1 the movement
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>lower</code> [<strong> number </strong>]: The lower weight.
 - <code>upper</code> [<strong> number </strong>]: The upper weight.
 
@@ -1073,7 +1073,7 @@ Sets the character's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>data</code> [<strong> table </strong>]: The server public data.
 
 ---
@@ -1089,7 +1089,7 @@ Sets whether the character is swimming.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>state</code> [<strong> bool </strong>]: Whether the character is swimming or not.
 
 ---
@@ -1105,7 +1105,7 @@ Sets whether the character is tumbling.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>state</code> [<strong> bool </strong>]: Whether the character is tumbling or not.
 
 ---
@@ -1121,8 +1121,8 @@ Sets the upward direction of the character's graphics.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
-- <code>up</code> [<strong> vec3 </strong>]: The direction.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
+- <code>up</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -1137,7 +1137,7 @@ Updates the character animation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>name</code> [<strong> string </strong>]: The animation name.
 - <code>time</code> [<strong> number </strong>]: The time.
 - <code>weight</code> [<strong> number </strong>]: The weight. Defaults to <code>-1.0</code>. (Optional)
@@ -1156,9 +1156,9 @@ Sets the name tag display value for the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>name</code> [<strong> string </strong>]: The name tag text.
-- <code>color</code> [<strong> color </strong>]: The the text color. Defaults to white.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The the text color. Defaults to white.
 - <code>requiresLoS</code> [<strong> bool </strong>]: Whether the tag requires line of sight to be visible or not. Defaults to false.
 - <code>renderDistance</code> [<strong> number </strong>]: The max distance the tag will be rendered in. Defaults to 10000.
 - <code>fadeDistance</code> [<strong> number </strong>]: The distance above which the tag starts to fade out. Defaults to 9500.
@@ -1176,8 +1176,8 @@ Sets the world position of the character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
-- <code>position</code> [<strong> vec3 </strong>]: The world position.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world position.
 
 ---
 

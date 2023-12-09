@@ -31,7 +31,7 @@ Used to check collisions between the lift and the world.
 <strong>Arguments:</strong> <br></br>
 
 - <code>creation</code> [<strong> table </strong>]: A table of all the bodies belonging to the creation placed on the lift.
-- <code>position</code> [<strong> vec3 </strong>]: The lift position.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The lift position.
 - <code>rotation</code> [<strong> int </strong>]: The rotation of the creation on the lift.
 
 <strong>Returns:</strong> <br></br>
@@ -53,7 +53,7 @@ Pass nil to unforce an already forced tool.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 
 ---
 
@@ -83,7 +83,7 @@ Returns whether the tool uuid exists.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid.
 
 <strong>Returns:</strong> <br></br>
 

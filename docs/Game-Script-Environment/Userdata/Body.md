@@ -15,7 +15,7 @@ A userdata object representing a <strong>body</strong> in the game.
 
 <strong>Values:</strong>
 
-- <code>angularVelocity</code> [<strong> vec3 </strong>] <br></br>
+- <code>angularVelocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The angular velocity of the body.
 
@@ -26,7 +26,7 @@ A userdata object representing a <strong>body</strong> in the game.
 	- <code>Set</code>: (Server-Only) Controls whether a body is buildable.
 
 
-- <code>centerOfMassPosition </code> [<strong> vec3 </strong>] <br></br>
+- <code>centerOfMassPosition </code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The center of mass world position of a body.
 
@@ -83,17 +83,17 @@ A userdata object representing a <strong>body</strong> in the game.
 	- <code>Set</code>: (Server-Only) Controls whether a body is interactable.
 
 
-- <code>velocity</code> [<strong> vec3 </strong>] <br></br>
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The linear velocity of the body.
 
 
-- <code>worldPosition</code> [<strong> vec3 </strong>] <br></br>
+- <code>worldPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The world position of the body.
 
 
-- <code>worldRotation</code> [<strong> quat </strong>] <br></br>
+- <code>worldRotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>] <br></br>
 
 	- <code>Get</code>: The world rotation of the body.
 
@@ -117,15 +117,15 @@ Creates a block on the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
-- <code>uuid</code> [<strong> uuid </strong>]: 	The uuid of the shape.
-- <code>size</code> [<strong> vec3 </strong>]: The shape's size.
-- <code>position</code> [<strong> vec3 </strong>]: The shape's local position.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: 	The uuid of the shape.
+- <code>size</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's size.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local position.
 - <code>forceAccept</code> [<strong> bool </strong>]: Set true to force the body to accept the shape. (Defaults to true)
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> shape </strong>]: The created shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The created shape.
 
 ---
 
@@ -140,16 +140,16 @@ Creates a part on the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
-- <code>uuid</code> [<strong> uuid </strong>]: 	The uuid of the shape.
-- <code>position</code> [<strong> vec3 </strong>]: The shape's local position.
-- <code>z-axis</code> [<strong> vec3 </strong>]: The shape's local z direction.
-- <code>x-axis</code> [<strong> vec3 </strong>]: The shape's local x direction.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: 	The uuid of the shape.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local position.
+- <code>z-axis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local z direction.
+- <code>x-axis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local x direction.
 - <code>forceAccept</code> [<strong> bool </strong>]: Set true to force the body to accept the shape. (Defaults to true)
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> shape </strong>]: The created shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The created shape.
 
 
 ---
@@ -165,7 +165,7 @@ Returns a table with all seated characters in this body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -184,11 +184,11 @@ Returns the angular velocity of the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The body's angular velocity.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The body's angular velocity.
 
 ---
 
@@ -203,11 +203,11 @@ Returns the center of mass world position of the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The body's center of mass position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The body's center of mass position.
 
 ---
 
@@ -224,7 +224,7 @@ A creation includes all bodies connected by [joints](/docs/Game-Script-Environme
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -243,7 +243,7 @@ Returns the id of the creation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -264,7 +264,7 @@ A creation includes all bodies connected by [joints](/docs/Game-Script-Environme
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -285,7 +285,7 @@ A creation includes all bodies connected by [joints](/docs/Game-Script-Environme
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -304,7 +304,7 @@ Returns the id of the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -325,7 +325,7 @@ This will <strong>not</strong> return interactables in neighbouring bodies conne
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -346,7 +346,7 @@ This will <strong>not</strong> return joints in neighbouring bodies.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -365,12 +365,12 @@ Returns the local aabb of the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The aabb min.
-- [<strong> vec3 </strong>]: The aabb max.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The aabb min.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The aabb max.
 
 ---
 
@@ -385,7 +385,7 @@ Returns the mass of the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -406,7 +406,7 @@ This will <strong>not</strong> return shapes in neighbouring bodies connected by
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -425,11 +425,11 @@ Returns the linear velocity of the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The linear velocity of the body.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The linear velocity of the body.
 
 ---
 
@@ -444,11 +444,11 @@ Returns the world that the body exists in.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> world </strong>]: The world of the body.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world of the body.
 
 ---
 
@@ -463,12 +463,12 @@ Returns the world aabb of the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The aabb min.
-- [<strong> vec3 </strong>]: The aabb max.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The aabb min.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The aabb max.
 
 ---
 
@@ -483,11 +483,11 @@ Returns the world position of the body.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The body's world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The body's world position.
 
 ---
 
@@ -502,7 +502,7 @@ Returns true if the given tick is lower than the tick the body was last changed.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>tick</code> [<strong> int </strong>]: The tick.
 
 <strong>Returns:</strong> <br></br>
@@ -522,7 +522,7 @@ Returns whether the body is buildable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -541,7 +541,7 @@ Returns whether the body is connectable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -560,7 +560,7 @@ Returns whether the body is convertable to dynamic or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -579,7 +579,7 @@ Returns whether the body is destructable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -598,7 +598,7 @@ Returns whether the body is dynamic or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -617,7 +617,7 @@ Returns whether the body is erasable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -636,7 +636,7 @@ Returns whether the body is liftable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -655,7 +655,7 @@ Returns whether the body is on a lift or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -674,7 +674,7 @@ Returns whether the body is paintable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -693,7 +693,7 @@ Returns whether the body is static or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -712,7 +712,7 @@ Returns whether the body is interactable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 <strong>Returns:</strong> <br></br>
 
@@ -731,7 +731,7 @@ Controls whether the body is buildable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>state</code> [<strong> bool </strong>]: Whether the body is buildable or not.
 
 ---
@@ -747,7 +747,7 @@ Controls whether the body is connectable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>state</code> [<strong> bool </strong>]: Whether the body is connectable or not.
 
 ---
@@ -763,7 +763,7 @@ Controls whether the body is convertible to dynamic or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>state</code> [<strong> bool </strong>]: Whether the body is convertible to dynamic or not.
 
 ---
@@ -779,7 +779,7 @@ Controls whether the body is destructable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>state</code> [<strong> bool </strong>]: Whether the body is destructable or not.
 
 ---
@@ -795,7 +795,7 @@ Controls whether the body is erasable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>state</code> [<strong> bool </strong>]: Whether the body is erasable or not.
 
 ---
@@ -811,7 +811,7 @@ Controls whether the body is liftable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>state</code> [<strong> bool </strong>]: Whether the body is liftable or not.
 
 ---
@@ -827,7 +827,7 @@ Controls whether the body is paintable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>state</code> [<strong> bool </strong>]: Whether the body is paintable or not.
 
 ---
@@ -843,7 +843,7 @@ Controls whether the body is interactable or not.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 - <code>state</code> [<strong> bool </strong>]: Whether the body is interactable or not.
 
 ---
@@ -859,12 +859,12 @@ Transforms a point from local space to world space.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> body </strong>]: The body.
-- <code>point</code> [<strong> vec3 </strong>]: The point in local space.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
+- <code>point</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The point in local space.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>body</code> [<strong> vec3 </strong>]: The point in world space.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The point in world space.
 
 ---
 

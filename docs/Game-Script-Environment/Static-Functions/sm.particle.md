@@ -31,9 +31,9 @@ If you start a looping particle effect using this method, the only way to get ri
 <strong>Arguments:</strong> <br></br>
 
 - <code>particle</code> [<strong> string </strong>]: The particle name.
-- <code>position</code> [<strong> vec3 </strong>]: The position.
-- <code>rotation</code> [<strong> quat </strong>]: The rotation (defaults to none).
-- <code>color</code> [<strong> color </strong>]: The color (defaults to white).
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation (defaults to none).
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color (defaults to white).
 
 ---
 

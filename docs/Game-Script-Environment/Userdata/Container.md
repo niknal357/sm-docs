@@ -55,8 +55,8 @@ Checks if [sm.container.collect](/docs/Game-Script-Environment/Static-Functions/
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
-- <code>itemUuid</code> [<strong> uuid </strong>]: The uuid of the item.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
+- <code>itemUuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the item.
 - <code>quantity</code> [<strong> int </strong>]: The number of items.
 
 <strong>Returns:</strong> <br></br>
@@ -75,8 +75,8 @@ Checks if [sm.container.spend](/docs/Game-Script-Environment/Static-Functions/sm
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
-- <code>itemUuid</code> [<strong> uuid </strong>]: The uuid of the item.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
+- <code>itemUuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the item.
 - <code>quantity</code> [<strong> int </strong>]: The number of items.
 
 <strong>Returns:</strong> <br></br>
@@ -96,7 +96,7 @@ Returns whether the container can collect items.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 <strong>Returns:</strong> <br></br>
 
@@ -115,7 +115,7 @@ Returns whether the container can spend items.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 <strong>Returns:</strong> <br></br>
 
@@ -133,7 +133,7 @@ Returns a table containing item uuid, quantity (and instance id for tools) at th
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 - <code>slot</code> [<strong> int </strong>]: The slot.
 
 <strong>Returns:</strong> <br></br>
@@ -142,7 +142,7 @@ Returns a table containing item uuid, quantity (and instance id for tools) at th
 
 <strong>Table Content:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The item UUID.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item UUID.
 - <code>instance</code> [<strong> int </strong>]: The instance ID, if the item is a tool.
 - <code>quantity</code> [<strong> int </strong>]: The item amount.
 
@@ -158,7 +158,7 @@ Returns the max stack size in the container.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 <strong>Returns:</strong> <br></br>
 
@@ -176,7 +176,7 @@ Returns the number of slots in a container.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 <strong>Returns:</strong> <br></br>
 
@@ -194,7 +194,7 @@ Returns true if the given tick is lower than the tick the container was last cha
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 - <code>tick</code> [<strong> int </strong>]: The tick.
 
 <strong>Returns:</strong> <br></br>
@@ -213,7 +213,7 @@ Returns true if the container is empty.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 
 <strong>Returns:</strong> <br></br>
 
@@ -232,7 +232,7 @@ Sets whether the container can collect items.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 - <code>state</code> [<strong> bool </strong>]: Whether the container can collect items or not.
 
 ---
@@ -248,7 +248,7 @@ Sets whether the container can spend items.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 - <code>state</code> [<strong> bool </strong>]: Whether the container can spend items or not.
 
 ---
@@ -264,7 +264,7 @@ Sets item filters.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 - <code>filter</code> [<strong> table </strong>]: The table of allowed item uuids.
 
 ---
@@ -280,7 +280,7 @@ Sets the number of items stacked in a given container slot.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>container</code> [<strong> container </strong>]: The container.
+- <code>container</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The container.
 - <code>slot</code> [<strong> table </strong>]: The slot.
 - <code>itemUuid</code> [<strong> table </strong>]: The uuid of the item.
 - <code>quantity</code> [<strong> table </strong>]: The number of items.

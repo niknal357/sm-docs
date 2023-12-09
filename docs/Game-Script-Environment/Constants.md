@@ -26,7 +26,7 @@ Sets the connection-point highlight color. <br></br>
 The connection-point is shown when using the Connect Tool and selecting the interactable. <br></br>
 Defaults to white.
 
-- <code>highlightColor</code> [<strong> color </strong>]: The connection-point's highlight color.
+- <code>highlightColor</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The connection-point's highlight color.
 
 ---
 
@@ -35,7 +35,7 @@ Sets the connection-point normal color. <br></br>
 The connection-point is shown when using the Connect Tool. <br></br>
 Defaults to gray.
 
-- <code>normalColor</code> [<strong> color </strong>]: The connection-point's normal color.
+- <code>normalColor</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The connection-point's normal color.
 
 ---
 
@@ -181,7 +181,7 @@ Value are integers 0-3 (Defaults to 0, no poses).
 
 A value greater that 0 indicates that the renderable's mesh is set up to blend into <code>pose0</code>, <code>pose1</code>, <code>pose2</code>. <br></br>
 
-- <code>highlightColor</code> [<strong> color </strong>]: The connection-point's normal color.
+- <code>highlightColor</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The connection-point's normal color.
 
 ---
 

@@ -25,7 +25,7 @@ Creates a new sphere group.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> cullSphereGroup </strong>]: The sphere group.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/CullSphereGroup"> CullSphereGroup </a> </strong>]: The sphere group.
 
 ---
 

@@ -24,7 +24,7 @@ The callback function is executed in the next Lua tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function in the character script.
 - <code>data</code> [<strong> any </strong>]: Extra data to send to the callback function.
 
@@ -65,7 +65,7 @@ The callback function is executed in the next Lua tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>harvestable</code> [<strong> harvestable </strong>]: The harvestable.
+- <code>harvestable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a> </strong>]: The harvestable.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function in the harvestable script.
 - <code>data</code> [<strong> any </strong>]: Extra data to send to the callback function.
 
@@ -86,7 +86,7 @@ The callback function is executed in the next Lua tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>interactable</code> [<strong> interactable </strong>]: The interactable.
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The interactable.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function in the interactable script.
 - <code>data</code> [<strong> any </strong>]: Extra data to send to the callback function.
 
@@ -107,7 +107,7 @@ The callback function is executed in the next Lua tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function in the player script.
 - <code>data</code> [<strong> any </strong>]: Extra data to send to the callback function.
 
@@ -128,7 +128,7 @@ The callback function is executed in the next Lua tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>scriptableObject</code> [<strong> scriptableObject </strong>]: The scriptable object.
+- <code>scriptableObject</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/ScriptableObject"> ScriptableObject </a> </strong>]: The scriptable object.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function in the scriptableObject's script.
 - <code>data</code> [<strong> any </strong>]: Extra data to send to the callback function.
 
@@ -149,7 +149,7 @@ The callback function is executed in the next Lua tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>tool</code> [<strong> tool </strong>]: The tool.
+- <code>tool</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Tool"> Tool </a> </strong>]: The tool.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function in the tool script.
 - <code>data</code> [<strong> any </strong>]: Extra data to send to the callback function.
 
@@ -170,7 +170,7 @@ The callback function is executed in the next Lua tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>unit</code> [<strong> unit </strong>]: The unit.
+- <code>unit</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Unit"> Unit </a> </strong>]: The unit.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function in the unit script.
 - <code>data</code> [<strong> any </strong>]: Extra data to send to the callback function.
 
@@ -191,7 +191,7 @@ The callback function is executed in the next Lua tick.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>world</code> [<strong> world </strong>]: The world.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world.
 - <code>callback</code> [<strong> string </strong>]: The name of the callback function in the world script.
 - <code>data</code> [<strong> any </strong>]: Extra data to send to the callback function.
 

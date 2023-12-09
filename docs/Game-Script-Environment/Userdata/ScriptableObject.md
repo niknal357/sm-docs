@@ -32,7 +32,7 @@ A userdata object representing a <strong>scriptable object</strong>.
 	- <code>Set</code>: (Server-Only) Sets the object's server public data.
 
 
-- <code>world</code> [<strong> world </strong>] <br></br>
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>] <br></br>
 
 	- <code>Get</code>: The object's world.
 
@@ -56,7 +56,7 @@ Destroys the object.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>scriptableObject</code> [<strong> scriptableObject </strong>]: The scriptable object.
+- <code>scriptableObject</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/ScriptableObject"> ScriptableObject </a> </strong>]: The scriptable object.
 
 ---
 
@@ -71,7 +71,7 @@ Returns the object's client public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>scriptableObject</code> [<strong> scriptableObject </strong>]: The scriptable object.
+- <code>scriptableObject</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/ScriptableObject"> ScriptableObject </a> </strong>]: The scriptable object.
 
 <strong>Returns:</strong> <br></br>
 
@@ -89,7 +89,7 @@ Returns the object's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>scriptableObject</code> [<strong> scriptableObject </strong>]: The scriptable object.
+- <code>scriptableObject</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/ScriptableObject"> ScriptableObject </a> </strong>]: The scriptable object.
 
 <strong>Returns:</strong> <br></br>
 
@@ -108,7 +108,7 @@ Returns the object's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>scriptableObject</code> [<strong> scriptableObject </strong>]: The scriptable object.
+- <code>scriptableObject</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/ScriptableObject"> ScriptableObject </a> </strong>]: The scriptable object.
 
 <strong>Returns:</strong> <br></br>
 
@@ -126,11 +126,11 @@ Returns the object's world.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>scriptableObject</code> [<strong> scriptableObject </strong>]: The scriptable object.
+- <code>scriptableObject</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/ScriptableObject"> ScriptableObject </a> </strong>]: The scriptable object.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> world </strong>]: The objects's world.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The objects's world.
 
 ---
 
@@ -145,7 +145,7 @@ Sets the object's client public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>scriptableObject</code> [<strong> scriptableObject </strong>]: The scriptable object.
+- <code>scriptableObject</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/ScriptableObject"> ScriptableObject </a> </strong>]: The scriptable object.
 - <code>data</code> [<strong> table </strong>]: The data to set.
 
 ---
@@ -161,7 +161,7 @@ Sets the object's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>scriptableObject</code> [<strong> scriptableObject </strong>]: The scriptable object.
+- <code>scriptableObject</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/ScriptableObject"> ScriptableObject </a> </strong>]: The scriptable object.
 - <code>data</code> [<strong> table </strong>]: The data to set.
 
 ---

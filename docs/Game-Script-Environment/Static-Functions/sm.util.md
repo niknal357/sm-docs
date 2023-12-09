@@ -23,12 +23,12 @@ Constructs a quaternion from an X and Z axis.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>xAxis</code> [<strong> vec3 </strong>]: The X axis.
-- <code>zAxis</code> [<strong> vec3 </strong>]: The Z axis.
+- <code>xAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The X axis.
+- <code>zAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The Z axis.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The created quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The created quaternion.
 
 ---
 

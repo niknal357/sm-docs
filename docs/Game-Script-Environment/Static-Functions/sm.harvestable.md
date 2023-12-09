@@ -24,14 +24,14 @@ Creates a new harvestable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid of the harvestable.
-- <code>position</code> [<strong> vec3 </strong>]: The harvestable's world position.
-- <code>rotation</code> [<strong> quat </strong>]: The harvestable's world rotation. Defaults to <code>sm.quat.identity()</code>.
-- <code>slopeNormal</code> [<strong> vec3 </strong>]: The harvestable's slope normal, for "skew" and "rotate" slope settings. Defaults to Z axis.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the harvestable.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The harvestable's world position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The harvestable's world rotation. Defaults to <code>sm.quat.identity()</code>.
+- <code>slopeNormal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The harvestable's slope normal, for "skew" and "rotate" slope settings. Defaults to Z axis.
 
 <strong>Returns:</strong> <br></br>
 
-- <code>harvestable</code> [<strong> Harvestable </strong>]: The created harvestable.
+- <code>harvestable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a> </strong>]: The created harvestable.
 
 ---
 
@@ -46,13 +46,13 @@ Creates a new harvestable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid of the harvestable.
-- <code>position</code> [<strong> vec3 </strong>]: The harvestable's world position.
-- <code>rotation</code> [<strong> quat </strong>]: The harvestable's world rotation. Defaults to <code>sm.quat.identity()</code>.
-- <code>slopeNormal</code> [<strong> vec3 </strong>]: The harvestable's slope normal, for "skew" and "rotate" slope settings. Defaults to Z axis.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the harvestable.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The harvestable's world position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The harvestable's world rotation. Defaults to <code>sm.quat.identity()</code>.
+- <code>slopeNormal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The harvestable's slope normal, for "skew" and "rotate" slope settings. Defaults to Z axis.
 
 <strong>Returns:</strong> <br></br>
 
-- <code>harvestable</code> [<strong> Harvestable </strong>]: The created harvestable.
+- <code>harvestable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a> </strong>]: The created harvestable.
 
 ---

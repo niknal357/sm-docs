@@ -41,8 +41,8 @@ For a list of available sounds to play, see [sm.audio.soundList](/docs/Game-Scri
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>sound</code> [<strong> interactable </strong>]: The name of the sound.
-- <code>position</code> [<strong> vec3 </strong>]: The sound position (optional).
+- <code>sound</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The name of the sound.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The sound position (optional).
 
 ---
 

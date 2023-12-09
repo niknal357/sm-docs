@@ -64,7 +64,7 @@ Returns the hex representation of the color.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>color</code> [<strong> color </strong>]: The color.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color.
 
 <strong>Returns:</strong> <br></br>
 

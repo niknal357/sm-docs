@@ -54,7 +54,7 @@ Return the screen coordinates that align with the given world position.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>position</code> [<strong> vec3 </strong>]: The world position.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world position.
 - <code>width</code> [<strong> int </strong>]: The screen width.
 - <code>height</code> [<strong> int </strong>]: The screen height.
 

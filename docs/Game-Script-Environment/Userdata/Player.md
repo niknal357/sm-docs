@@ -15,7 +15,7 @@ A userdata object representing a <strong>player</strong> in the game.
 
 <strong>Values:</strong>
 
-- <code>character</code> [<strong> character </strong>] <br></br>
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>] <br></br>
 
 	- <code>Get</code>: The player's character.
 
@@ -61,11 +61,11 @@ Returns the carry container of the player.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> container </strong>]: The player's carry container.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The player's carry container.
 
 ---
 
@@ -80,11 +80,11 @@ Returns the color of the shape the player is carrying.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> color </strong>]: The color of the carried shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color of the carried shape.
 
 ---
 
@@ -98,11 +98,11 @@ Returns the player's character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> character </strong>]: The player's character.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The player's character.
 
 ---
 
@@ -117,7 +117,7 @@ Returns the player's client public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
@@ -135,11 +135,11 @@ Returns the player's hotbar container.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> container </strong>]: The player's hotbar.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The player's hotbar.
 
 ---
 
@@ -153,7 +153,7 @@ Returns the player's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
@@ -171,11 +171,11 @@ Returns the player's inventory container.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> container </strong>]: The player's inventory.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Container"> Container </a> </strong>]: The player's inventory.
 
 ---
 
@@ -189,7 +189,7 @@ Returns the player's username.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
@@ -208,7 +208,7 @@ Returns the player's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
@@ -226,7 +226,7 @@ Returns whether the player is female.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
@@ -244,7 +244,7 @@ Returns whether the player is male.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 <strong>Returns:</strong> <br></br>
 
@@ -263,9 +263,9 @@ Places the player's lift.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 - <code>creation</code> [<strong> table </strong>]: The bodies to place on the lift.
-- <code>position</code> [<strong> vec3 </strong>]: The lift's world position.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The lift's world position.
 - <code>level</code> [<strong> int </strong>]: The lift's level.
 - <code>rotation</code> [<strong> int </strong>]: The rotation of the lifted creation.
 
@@ -282,7 +282,7 @@ Removes the player's lift, if it exists.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 
 ---
 
@@ -299,7 +299,7 @@ The event is received by the [client_onEvent](/docs/Game-Script-Environment/Clas
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 - <code>event</code> [<strong> string </strong>]: The event.
 
 ---
@@ -315,8 +315,8 @@ Sets the player's character.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
-- <code>character</code> [<strong> character </strong>]: The character.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
+- <code>character</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 ---
 
@@ -331,7 +331,7 @@ Sets the player's client public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 - <code>data</code> [<strong> table </strong>]: The data to set.
 
 ---
@@ -347,7 +347,7 @@ Sets the player's server public data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player.
 - <code>data</code> [<strong> table </strong>]: The data to set.
 
 ---

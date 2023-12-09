@@ -26,10 +26,10 @@ The impulse is applied to the object's center point with an optional offset.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>target</code> [<strong> shape/body/character </strong>]: The target that the impulse is applied to.
-- <code>impulse</code> [<strong> vec3 </strong>]: The direction and strength of the impulse.
+- <code>target</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/body/character </strong>]: The target that the impulse is applied to.
+- <code>impulse</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction and strength of the impulse.
 - <code>worldSpace</code> [<strong> bool </strong>]: Whether the impulse is applied in world space (global) coordinates. Defaults to local.
-- <code>offset</code> [<strong> vec3 </strong>]: The offset from the center point. Defaults to none.
+- <code>offset</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The offset from the center point. Defaults to none.
 
 ---
 
@@ -44,8 +44,8 @@ The torque is applied along the body's center of mass, making it rotate.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>target</code> [<strong> body </strong>]: The body that the torque is applied to.
-- <code>torque</code> [<strong> vec3 </strong>]: The direction and strength of the torque.
+- <code>target</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body that the torque is applied to.
+- <code>torque</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction and strength of the torque.
 - <code>worldSpace</code> [<strong> bool </strong>]: Whether the torque is applied in world space (global) coordinates. Defaults to local.
 
 ---
@@ -60,8 +60,8 @@ Performs a distance [ray cast](https://en.wikipedia.org/wiki/Ray_casting) from a
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>start</code> [<strong> vec3 </strong>]: The start position.
-- <code>direction</code> [<strong> vec3 </strong>]: The ray's direction and length.
+- <code>start</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The start position.
+- <code>direction</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The ray's direction and length.
 
 <strong>Returns:</strong> <br></br>
 
@@ -94,13 +94,13 @@ A quality level of 0 means a block or part is indestructible.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>position</code> [<strong> vec3 </strong>]: The center point of the explosion.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The center point of the explosion.
 - <code>level</code> [<strong> int </strong>]: The destruction level affecting nearby objects.
 - <code>destructionRadius</code> [<strong> number </strong>]: The destruction radius. Objects inside this sphere may be destroyed.
 - <code>impulseRadius</code> [<strong> number </strong>]: The impulse radius. Objects inside this sphere are affected by an impulse.
 - <code>magnitude</code> [<strong> number </strong>]: The impulse strength of the explosion. The strength diminishes with distance.
 - <code>effectName</code> [<strong> string </strong>]: The name of the effect to be played upon explosion. Optional.
-- <code>ignoreShape</code> [<strong> shape </strong>]: The shape to be ignored. Optional.
+- <code>ignoreShape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape to be ignored. Optional.
 - <code>parameters</code> [<strong> table </strong>]: A table containing parameters for the effect. Optional.
 
 ---
@@ -130,7 +130,7 @@ Returns the terrain material at the given position.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>position</code> [<strong> vec3 </strong>]: The position.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 
 <strong>Returns:</strong> <br></br>
 
@@ -149,7 +149,7 @@ Returns a table of the objects that were found inside the given sphere.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>position</code> [<strong> vec3 </strong>]: The position of the sphere.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position of the sphere.
 - <code>radius</code> [<strong> number </strong>]: The radius of the sphere.
 
 <strong>Returns:</strong> <br></br>
@@ -249,15 +249,15 @@ If the ray cast is called from within a shape (e.g. a Sensor), a [Body](/docs/Ga
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>startPos</code> [<strong> vec3 </strong>]: The start position.
-- <code>endPos</code> [<strong> vec3 </strong>]: The end position.
-- <code>body</code> [<strong> body </strong>]: The body to ignore. Defaults to none.
+- <code>startPos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The start position.
+- <code>endPos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The end position.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body to ignore. Defaults to none.
 - <code>mask</code> [<strong> int </strong>]: The collision mask. Defaults to <code>sm.physics.filter.default</code>.
 
 <strong>Returns:</strong> <br></br>
 
 - [<strong> bool </strong>]: Whether the raycast is valid or not.
-- [<strong> raycastResult </strong>]: The raycast result data.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycast result data.
 
 ---
 
@@ -275,14 +275,14 @@ The returned [RaycastResult](/docs/Game-Script-Environment/Userdata/RaycastResul
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>startPos</code> [<strong> vec3 </strong>]: The start position.
-- <code>endPos</code> [<strong> vec3 </strong>]: The end position.
-- <code>body</code> [<strong> body </strong>]: The body be exclusively checked.
+- <code>startPos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The start position.
+- <code>endPos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The end position.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body be exclusively checked.
 
 <strong>Returns:</strong> <br></br>
 
 - [<strong> bool </strong>]: Whether the raycast is valid or not.
-- [<strong> raycastResult </strong>]: The raycast result data.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycast result data.
 
 ---
 
@@ -311,7 +311,7 @@ Returns the number of collision objects that were found inside the given sphere.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>worldPosition</code> [<strong> vec3 </strong>]: The sphere position.
+- <code>worldPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The sphere position.
 - <code>radius</code> [<strong> number </strong>]: The sphere radius.
 - <code>includeTerrain</code> [<strong> bool </strong>]: Whether terrain should be included in the test. Defaults to false.
 - <code>countWater</code> [<strong> bool </strong>]: Whether water should be included in the test. Defaults to false.
@@ -336,16 +336,16 @@ If the ray cast is called from within a shape (e.g. a Sensor), a [Body](/docs/Ga
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>startPos</code> [<strong> vec3 </strong>]: The start position.
-- <code>endPos</code> [<strong> vec3 </strong>]: The end position.
+- <code>startPos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The start position.
+- <code>endPos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The end position.
 - <code>radius</code> [<strong> number </strong>]: The radius of the sphere.
-- <code>body</code> [<strong> body </strong>]: The body to ignore. Defaults to none.
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body to ignore. Defaults to none.
 - <code>mask</code> [<strong> int </strong>]: The collision mask. Defaults to <code>sm.physics.filter.default</code>.
 
 <strong>Returns:</strong> <br></br>
 
 - [<strong> bool </strong>]: Whether the raycast is valid or not.
-- [<strong> raycastResult </strong>]: The raycast result data.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycast result data.
 
 ---
 

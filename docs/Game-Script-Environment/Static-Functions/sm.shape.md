@@ -29,16 +29,16 @@ Creates a new block.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The block uuid.
-- <code>size</code> [<strong> vec3 </strong>]: The block size.
-- <code>position</code> [<strong> vec3 </strong>]: The the world position.
-- <code>rotation</code> [<strong> quat </strong>]: The world rotation (defaults to none).
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The block uuid.
+- <code>size</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The block size.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The the world position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The world rotation (defaults to none).
 - <code>dynamic</code> [<strong> bool </strong>]: Whether the shape is dynamic or static. Defaults to true (dynamic).
 - <code>forceSpawn</code> [<strong> bool </strong>]: Whether to force spawn the shape or not. Optional.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> shape </strong>]: The created shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The created shape.
 
 ---
 
@@ -53,15 +53,15 @@ Creates a new part.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The part uuid.
-- <code>position</code> [<strong> vec3 </strong>]: The the world position.
-- <code>rotation</code> [<strong> quat </strong>]: The world rotation (defaults to none).
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The part uuid.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The the world position.
+- <code>rotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The world rotation (defaults to none).
 - <code>dynamic</code> [<strong> bool </strong>]: Whether the shape is dynamic or static. Defaults to true (dynamic).
 - <code>forceSpawn</code> [<strong> bool </strong>]: Whether to force spawn the shape or not. Optional.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> shape </strong>]: The created shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The created shape.
 
 ---
 
@@ -75,7 +75,7 @@ Returns the item description for the given uuid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 
 <strong>Returns:</strong> <br></br>
 
@@ -93,7 +93,7 @@ sm.shape.getShapeIcon( uuid )
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 
 <strong>Returns:</strong> <br></br>
 
@@ -111,7 +111,7 @@ Returns the item's name for the given uuid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 
 <strong>Returns:</strong> <br></br>
 
@@ -129,11 +129,11 @@ Returns the color of the uuid's shape type.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> color </strong>]: The color of the shape type.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color of the shape type.
 
 ---
 
@@ -147,7 +147,7 @@ Returns whether the uuid belongs to a harvestable shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The item uuid.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The item uuid.
 
 <strong>Returns:</strong> <br></br>
 
@@ -165,7 +165,7 @@ Returns whether the shape uuid exists.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>uuid</code> [<strong> uuid </strong>]: The shape uuid.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The shape uuid.
 
 <strong>Returns:</strong> <br></br>
 

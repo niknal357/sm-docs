@@ -18,7 +18,7 @@ Raycast results are the result of functions such as [sm.physics.raycast](/docs/G
 
 <strong>Values:</strong>
 
-- <code>directionWorld</code> [<strong> vec3 </strong>] <br></br>
+- <code>directionWorld</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The raycast's direction vector.
 
@@ -28,27 +28,27 @@ Raycast results are the result of functions such as [sm.physics.raycast](/docs/G
 	- <code>Get</code>: The fraction (0 - 1) of the distance reached until collision, divided by the ray's length.
 
 
-- <code>normalLocal</code> [<strong> vec3 </strong>] <br></br>
+- <code>normalLocal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The normal vector of the hit surface, relative to the target's rotation.
 
 
-- <code>normalWorld</code> [<strong> vec3 </strong>] <br></br>
+- <code>normalWorld</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The normal vector of the hit surface.
 
 
-- <code>originWorld</code> [<strong> vec3 </strong>] <br></br>
+- <code>originWorld</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The raycast's start position.
 
 
-- <code>pointLocal</code> [<strong> vec3 </strong>] <br></br>
+- <code>pointLocal</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The world position of the hit point, relative to the target's position.
 
 
-- <code>pointWorld</code> [<strong> vec3 </strong>] <br></br>
+- <code>pointWorld</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The world position of the hit point.
 
@@ -77,11 +77,11 @@ Returns the [AreaTrigger](/docs/Game-Script-Environment/Userdata/AreaTrigger) hi
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>raycastResult</code> [<strong> raycastResult </strong>]: The raycastResult.
+- <code>raycastResult</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycastResult.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> areaTrigger </strong>]: The areaTrigger.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/AreaTrigger"> AreaTrigger </a> </strong>]: The areaTrigger.
 
 ---
 
@@ -95,11 +95,11 @@ Returns the [Body](/docs/Game-Script-Environment/Userdata/Body) hit by the rayca
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>raycastResult</code> [<strong> raycastResult </strong>]: The raycastResult.
+- <code>raycastResult</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycastResult.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> body </strong>]: The body.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 ---
 
@@ -113,11 +113,11 @@ Returns the [Character](/docs/Game-Script-Environment/Userdata/Character) hit by
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>raycastResult</code> [<strong> raycastResult </strong>]: The raycastResult.
+- <code>raycastResult</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycastResult.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> character </strong>]: The character.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The character.
 
 ---
 
@@ -131,11 +131,11 @@ Returns the [Harvestable](/docs/Game-Script-Environment/Userdata/Harvestable) hi
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>raycastResult</code> [<strong> raycastResult </strong>]: The raycastResult.
+- <code>raycastResult</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycastResult.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> harvestable </strong>]: The harvestable.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a> </strong>]: The harvestable.
 
 ---
 
@@ -149,11 +149,11 @@ Returns the [Joint](/docs/Game-Script-Environment/Userdata/Joint) hit by the ray
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>raycastResult</code> [<strong> raycastResult </strong>]: The raycastResult.
+- <code>raycastResult</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycastResult.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> joint </strong>]: The joint.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The joint.
 
 ---
 
@@ -167,11 +167,11 @@ Returns the [Lift](/docs/Game-Script-Environment/Userdata/Lift) hit by the rayca
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>raycastResult</code> [<strong> raycastResult </strong>]: The raycastResult.
+- <code>raycastResult</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycastResult.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> lift </strong>]: The lift.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a> </strong>]: The lift.
 - [<strong> bool </strong>]: Whether the lift is top(?) or not.
 
 ---
@@ -187,10 +187,10 @@ Returns the [Shape](/docs/Game-Script-Environment/Userdata/Shape) hit by the ray
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>raycastResult</code> [<strong> raycastResult </strong>]: The raycastResult.
+- <code>raycastResult</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/RaycastResult"> RaycastResult </a> </strong>]: The raycastResult.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> shape </strong>]: The shape.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 ---

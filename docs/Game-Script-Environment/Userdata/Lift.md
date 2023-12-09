@@ -23,7 +23,7 @@ A userdata object representing a <strong>lift</strong> in the game.
 	- <code>Get</code>: The lift's level.
 
 
-- <code>worldPosition</code> [<strong> vec3 </strong>] <br></br>
+- <code>worldPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The lift's world position.
 
@@ -47,7 +47,7 @@ Destroys the lift.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>lift</code> [<strong> lift </strong>]: The lift.
+- <code>lift</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a> </strong>]: The lift.
 
 ---
 
@@ -61,7 +61,7 @@ Returns the lift's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>lift</code> [<strong> lift </strong>]: The lift.
+- <code>lift</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a> </strong>]: The lift.
 
 <strong>Returns:</strong> <br></br>
 
@@ -79,7 +79,7 @@ Returns the lift's level.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>lift</code> [<strong> lift </strong>]: The lift.
+- <code>lift</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a> </strong>]: The lift.
 
 <strong>Returns:</strong> <br></br>
 
@@ -97,11 +97,11 @@ Returns the lift's world position.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>lift</code> [<strong> lift </strong>]: The lift.
+- <code>lift</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a> </strong>]: The lift.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The lift's world position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The lift's world position.
 
 ---
 
@@ -115,7 +115,7 @@ Returns whether there is a body on the lift.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>lift</code> [<strong> lift </strong>]: The lift.
+- <code>lift</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Lift"> Lift </a> </strong>]: The lift.
 
 <strong>Returns:</strong> <br></br>
 

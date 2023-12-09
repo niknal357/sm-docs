@@ -30,7 +30,7 @@ Creates a [Blueprint Visualization](/docs/Game-Script-Environment/Userdata/Bluep
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> blueprintVisualization </strong>]: The blueprint visualization.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/BlueprintVisualization"> BlueprintVisualization </a> </strong>]: The blueprint visualization.
 
 ---
 
@@ -48,13 +48,13 @@ The builder guide blueprint contains stage indices based on shape color, stage c
 <strong>Arguments:</strong> <br></br>
 
 - <code>path</code> [<strong> string </strong>]: The file path to the builder guide blueprint.
-- <code>shape</code> [<strong> shape </strong>]: The root Shape for comparing the creation from.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The root Shape for comparing the creation from.
 - <code>ignoreBlockUuid</code> [<strong> bool </strong>]: Whether the block UUID should be evaluated for stage completion. Defaults to false.
 - <code>completeEffectName</code> [<strong> string </strong>]: The name of the effect to play when the guide is completed. Defaults to none.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> blueprintVisualization </strong>]: The builder guide blueprint visualization.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/BlueprintVisualization"> BlueprintVisualization </a> </strong>]: The builder guide blueprint visualization.
 
 ---
 
@@ -69,9 +69,9 @@ Visualizes a block.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>position</code> [<strong> vec3 </strong>]: The world position of the block. Local position if using a target.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world position of the block. Local position if using a target.
 - <code>illegal</code> [<strong> bool </strong>]: Whether the visualization should render as illegal.
-- <code>target</code> [<strong> shape/joint/nil </strong>]: The target shape or joint. Defaults to none (visualizes in world space).
+- <code>target</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/<a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a>/ nil </strong>]: The target shape or joint. Defaults to none (visualizes in world space).
 
 ---
 
@@ -134,7 +134,7 @@ Set the world position of the creation visualization. Only works <code>setFreePl
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>pos</code> [<strong> vec3 </strong>]: The visualization position.
+- <code>pos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The visualization position.
 
 ---
 
@@ -210,7 +210,7 @@ Sets the lift position of the lift visualization.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>pos</code> [<strong> vec3 </strong>]: The position of the lift.
+- <code>pos</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position of the lift.
 
 ---
 

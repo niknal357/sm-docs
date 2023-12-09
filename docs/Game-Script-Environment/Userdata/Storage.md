@@ -33,7 +33,7 @@ Returns nil if the object contains no data.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>storage</code> [<strong> storage </strong>]: The storage.
+- <code>storage</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Storage"> Storage </a> </strong>]: The storage.
 
 <strong>Returns:</strong> <br></br>
 
@@ -54,7 +54,7 @@ The data will remain stored after closing the world, and is retrieved using [loa
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>storage</code> [<strong> storage </strong>]: The storage.
+- <code>storage</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Storage"> Storage </a> </strong>]: The storage.
 - <code>data</code> [<strong> any </strong>]: The data.
 
 ---

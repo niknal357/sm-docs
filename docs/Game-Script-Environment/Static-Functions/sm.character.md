@@ -26,15 +26,15 @@ Creates a new character in a world.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>player</code> [<strong> player </strong>]: The player controlling the character.
-- <code>world</code> [<strong> world </strong>]: The world the character is created in.
-- <code>position</code> [<strong> vec3 </strong>]: The world position of the character.
+- <code>player</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Player"> Player </a> </strong>]: The player controlling the character.
+- <code>world</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/World"> World </a> </strong>]: The world the character is created in.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world position of the character.
 - <code>yaw</code> [<strong> number </strong>]: The initial yaw of the character (Optional).
 - <code>pitch</code> [<strong> number </strong>]: The initial pitch of the character (Optional).
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> character </strong>]: The created character.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The created character.
 
 ---
 

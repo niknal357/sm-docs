@@ -15,12 +15,12 @@ A userdata object representing a <strong>shape</strong> in the game.
 
 <strong>Values:</strong>
 
-- <code>at</code> [<strong> vec3 </strong>] <br></br>
+- <code>at</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The direction of the shape's front side.
 
 
-- <code>body</code> [<strong> body </strong>] <br></br>
+- <code>body</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>] <br></br>
 
 	- <code>Get</code>: The body that the shape is part of.
 
@@ -35,7 +35,7 @@ A userdata object representing a <strong>shape</strong> in the game.
 	- <code>Get</code>: The buoyancy multiplier of the shape.
 
 
-- <code>color</code> [<strong> color </strong>] <br></br>
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>] <br></br>
 
 	- <code>Get</code>: The color of the shape.
 	- <code>Set</code>: (Server-Only) Sets the color of the shape.
@@ -66,7 +66,7 @@ A userdata object representing a <strong>shape</strong> in the game.
 	- <code>Get</code>: The shape's id.
 
 
-- <code>interactable</code> [<strong> interactable </strong>] <br></br>
+- <code>interactable</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>] <br></br>
 
 	- <code>Get</code>: The interactable of the shape, if it exists.
 
@@ -81,12 +81,12 @@ A userdata object representing a <strong>shape</strong> in the game.
 	- <code>Get</code>: Whether the shape is liftable or not.
 
 
-- <code>localPosition</code> [<strong> vec3 </strong>] <br></br>
+- <code>localPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The local grid position of the shape.
 
 
-- <code>localRotation</code> [<strong> quat </strong>] <br></br>
+- <code>localRotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>] <br></br>
 
 	- <code>Get</code>: The local rotation of the shape.
 
@@ -111,7 +111,7 @@ A userdata object representing a <strong>shape</strong> in the game.
 	- <code>Get</code>: Whether the shape is paintable or not.
 
 
-- <code>right</code> [<strong> vec3 </strong>] <br></br>
+- <code>right</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The direction of the shape's right side.
 
@@ -122,13 +122,13 @@ A userdata object representing a <strong>shape</strong> in the game.
 	- <code>Set</code>: (Server-Only) Sets the item amount that is stacked in the shape.
 
 
-- <code>stackedItem</code> [<strong> uuid </strong>] <br></br>
+- <code>stackedItem</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>] <br></br>
 
 	- <code>Get</code>: The item uuid that is stacked in the shape.
 	- <code>Set</code>: (Server-Only) Sets the item uuid that is stacked in the shape.
 
 
-- <code>up</code> [<strong> vec3 </strong>] <br></br>
+- <code>up</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The direction of the shape's top side.
 
@@ -138,42 +138,42 @@ A userdata object representing a <strong>shape</strong> in the game.
 	- <code>Get</code>: Whether the shape is interactable or not.
 
 
-- <code>shapeUuid</code> [<strong> uuid </strong>] <br></br>
+- <code>shapeUuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>] <br></br>
 
 	- <code>Get</code>: The shape's uuid.
 
 
-- <code>uuid</code> [<strong> uuid </strong>] <br></br>
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>] <br></br>
 
 	- <code>Get</code>: The shape's uuid.
 
 
-- <code>velocity</code> [<strong> vec3 </strong>] <br></br>
+- <code>velocity</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The shape's linear velocity.
 
 
-- <code>worldPosition</code> [<strong> vec3 </strong>] <br></br>
+- <code>worldPosition</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The world position of the shape.
 
 
-- <code>worldRotation</code> [<strong> quat </strong>] <br></br>
+- <code>worldRotation</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>] <br></br>
 
 	- <code>Get</code>: The world rotation of the shape.
 
 
-- <code>xAxis</code> [<strong> vec3 </strong>] <br></br>
+- <code>xAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The local x-axis vector of the shape.
 
 
-- <code>yAxis</code> [<strong> vec3 </strong>] <br></br>
+- <code>yAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The local y-axis vector of the shape.
 
 
-- <code>zAxis</code> [<strong> vec3 </strong>] <br></br>
+- <code>zAxis</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>] <br></br>
 
 	- <code>Get</code>: The local z-axis vector of the shape.
 
@@ -197,14 +197,14 @@ Creates a joint on the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>uuid</code> [<strong> uuid </strong>]: The joint's uuid.
-- <code>position</code> [<strong> vec3 </strong>]: The joint's position.
-- <code>direction</code> [<strong> vec3 </strong>]: The joint's normal direction.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The joint's uuid.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint's position.
+- <code>direction</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The joint's normal direction.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> joint </strong>]: The created joint.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Joint"> Joint </a> </strong>]: The created joint.
 
 ---
 
@@ -219,9 +219,9 @@ Destroys a block in the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>position</code> [<strong> vec3 </strong>]: The local position of the removal box corner.
-- <code>size</code> [<strong> vec3 </strong>]: The size of the removal box (defaults to 1x1x1).
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The local position of the removal box corner.
+- <code>size</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The size of the removal box (defaults to 1x1x1).
 - <code>attackLevel</code> [<strong> int </strong>]: Determines which quality level of block the attack can destroy. Setting it to 0 (default) will destroy any block.
 
 ---
@@ -237,7 +237,7 @@ Destroys the part.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 - <code>attackLevel</code> [<strong> int </strong>]: Determines which quality level of block the attack can destroy. Setting it to 0 (default) will destroy any block.
 
 ---
@@ -253,7 +253,7 @@ Destroys the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 - <code>attackLevel</code> [<strong> int </strong>]: Determines which quality level of block the attack can destroy. Setting it to 0 (default) will destroy any block.
 
 ---
@@ -270,11 +270,11 @@ The direction is affected by the shape's rotation in the world.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -288,11 +288,11 @@ Returns the body that the shape is part of.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> body </strong>]: The body.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Body"> Body </a> </strong>]: The body.
 
 ---
 
@@ -306,11 +306,11 @@ Returns the bounding box of the shape - the dimensions that the shape occupies.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The bounding box.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The bounding box.
 
 ---
 
@@ -325,7 +325,7 @@ Returns the buoyancy multiplier of the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -344,12 +344,12 @@ Transform a world position to the closest block's local position in a shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>position</code> [<strong> vec3 </strong>]: The world position.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>position</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world position.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The closest local block position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The closest local block position.
 
 ---
 
@@ -364,11 +364,11 @@ Returns the shape's color.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> color </strong>]: The color.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color.
 
 ---
 
@@ -383,7 +383,7 @@ Returns the shape's id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -402,11 +402,11 @@ Returns the [Interactable](/docs/Game-Script-Environment/Userdata/Interactable) 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> interactable </strong>]: The shape's interactable.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a> </strong>]: The shape's interactable.
 
 ---
 
@@ -423,11 +423,11 @@ The direction is affected by the shape's rotation in the world.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The interpolated direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The interpolated direction.
 
 ---
 
@@ -444,11 +444,11 @@ The direction is affected by the shape's rotation in the world.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The interpolated direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The interpolated direction.
 
 ---
 
@@ -465,11 +465,11 @@ The direction is affected by the shape's rotation in the world.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The interpolated direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The interpolated direction.
 
 ---
 
@@ -484,11 +484,11 @@ Returns the interpolated world position of a shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The interpolated position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The interpolated position.
 
 ---
 
@@ -503,8 +503,8 @@ Returns whether the uuid belongs to a harvestable.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid.
 
 <strong>Returns:</strong> <br></br>
 
@@ -523,8 +523,8 @@ Returns whether the uuid belongs to a stackable shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid.
 
 <strong>Returns:</strong> <br></br>
 
@@ -547,7 +547,7 @@ Will only get the joints which are subshapes to the shape when <code>onlySubshap
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 - <code>onlyChildJoints</code> [<strong> bool </strong>]: Filters what joints to return (Optional, defaults to true).
 - <code>onlySubshapes</code> [<strong> bool </strong>]: Only get joints which are subshapes to the shape (Optional, defaults to false).
 
@@ -568,11 +568,11 @@ Returns the local grid position of the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The shape's local position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The shape's local position.
 
 ---
 
@@ -587,11 +587,11 @@ Returns the local grid rotation of the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The shape's local rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The shape's local rotation.
 
 ---
 
@@ -606,7 +606,7 @@ Returns the shape's mass.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -625,7 +625,7 @@ Returns the shape's material.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -644,7 +644,7 @@ Returns the shape's material id.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -663,7 +663,7 @@ Returns a table of "neighbor" shapes that are attached to the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -682,7 +682,7 @@ Returns a table of piped "neighbor" shapes that are attached to the shape throug
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -701,11 +701,11 @@ Returns the direction of the shape's right side.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -720,11 +720,11 @@ Returns the shape's uuid.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> uuid </strong>]: The shape's uuid.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The shape's uuid.
 
 ---
 
@@ -741,12 +741,12 @@ A value of 1 means that the direction is sticky and a value of 0 means that the 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The negative sticky directions.
-- [<strong> vec3 </strong>]: The positive sticky directions.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The negative sticky directions.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The positive sticky directions.
 
 ---
 
@@ -761,11 +761,11 @@ Returns the direction of the shape's top side.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The direction.
 
 ---
 
@@ -780,11 +780,11 @@ Returns the shape's linear velocity.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The velocity.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The velocity.
 
 ---
 
@@ -799,11 +799,11 @@ Returns the shape's world position.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The position.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The position.
 
 ---
 
@@ -818,11 +818,11 @@ Returns the shape's world rotation.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The rotation.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The rotation.
 
 ---
 
@@ -837,11 +837,11 @@ Returns the local x-axis vector of the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The x-axis vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The x-axis vector.
 
 ---
 
@@ -856,11 +856,11 @@ Returns the local y-axis vector of the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The y-axis vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The y-axis vector.
 
 ---
 
@@ -875,11 +875,11 @@ Returns the local z-axis vector of the shape.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The z-axis vector.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The z-axis vector.
 
 ---
 
@@ -898,8 +898,8 @@ The replacement shape must have the exact same size/bounding box as the current 
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>uuid</code> [<strong> uuid </strong>]: The uuid of the replacement shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>uuid</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Uuid"> Uuid </a> </strong>]: The uuid of the replacement shape.
 
 ---
 
@@ -914,8 +914,8 @@ Sets the shape's color.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>color</code> [<strong> color </strong>]: The color.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>color</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color.
 
 ---
 
@@ -935,7 +935,7 @@ Returns true if the shape exists.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
 
 <strong>Returns:</strong> <br></br>
 
@@ -957,7 +957,7 @@ Returns a table of shapes that are inside the sphere.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>center</code> [<strong> Vec3 </strong>]: The sphere center position.
+- <code>center</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The sphere center position.
 - <code>radius</code> [<strong> number </strong>]: The sphere radius.
 
 <strong>Returns:</strong> <br></br>
@@ -977,12 +977,12 @@ Transform a world direction to the local shape transform.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>vector</code> [<strong> vec3 </strong>]: The untransformed direction.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>vector</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The untransformed direction.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The transformed direction.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The transformed direction.
 
 ---
 
@@ -999,12 +999,12 @@ Transforms a local point to world space.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>vector</code> [<strong> vec3 </strong>]: The local point.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>vector</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The local point.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The world point.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world point.
 
 ---
 
@@ -1021,12 +1021,12 @@ Transforms a world point to the local shape transform.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>vector</code> [<strong> vec3 </strong>]: The world point.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>vector</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The world point.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> vec3 </strong>]: The local point.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The local point.
 
 ---
 
@@ -1047,12 +1047,12 @@ local localRot = self.shape:transformRotation( worldRot )
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>shape</code> [<strong> shape </strong>]: The shape.
-- <code>quat</code> [<strong> quat </strong>]: The untransformed quaternion.
+- <code>shape</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a> </strong>]: The shape.
+- <code>quat</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The untransformed quaternion.
 
 <strong>Returns:</strong> <br></br>
 
-- [<strong> quat </strong>]: The transformed quaternion.
+- [<strong> <a href="/docs/Game-Script-Environment/Userdata/Quat"> Quat </a> </strong>]: The transformed quaternion.
 
 ---
 
