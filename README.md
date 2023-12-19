@@ -56,3 +56,8 @@ This documentation is open source and hosted on GitHub. If you find any errors, 
 
 - Try to keep the style, formatting, and naming consistent with the rest of the documentation.
 - Create issues for any gaps in documentation or missing information that you do not have time to fix yourself.
+
+#### Getting the changes merged
+
+- Once you have created your pull request, ping me (niknal) on Discord, you can find me on the [Scrap Mechanic Modding Server](https://discord.gg/SVEFyus).
+- I will review your changes and merge them if they are good, I will then deploy the changes to the website.
