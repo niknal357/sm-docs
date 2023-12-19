@@ -8,7 +8,7 @@ slug: /
 
 ### Introduction
 
-Welcome! <br></br>
+👋Welcome! <br></br>
 This is an improved version of the Scrap Mechanic Lua API Reference at https://scrapmechanic.com/api/index.html. <br></br>
 
 A compiled version of this website will always be available [here](https://github.com/niknal357/sm-docu). <br></br>
@@ -25,7 +25,8 @@ This documentation is for Scrap Mechanic Version <strong>0.6.0 or later</strong>
 
 The <strong>previous documentation</strong> for Scrap Mechanic Version <strong>0.5.1</strong> is no longer available, as the content was not preserved.
 
-If you encounter any errors, malfunctions, broken links or missing information, please report them [here](https://github.com/niknal357/sm-docu/issues).
+If you encounter any errors, malfunctions, broken links or missing information, please report them [here](https://github.com/niknal357/sm-docs/issues).
+If you yourself want to contribute to this documentation, you can do so [here](https://github.com/niknal357/sm-docs).
 :::
 
 ### Console
