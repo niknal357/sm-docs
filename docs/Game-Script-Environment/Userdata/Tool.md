@@ -90,7 +90,7 @@ Returns the player's view/aim direction.
 ### getFpAnimationInfo
 
 ```lua
-tool:getFpAnimationInfo()
+tool:getFpAnimationInfo( name )
 ```
 <code>Client-Only</code> <br></br>
 
