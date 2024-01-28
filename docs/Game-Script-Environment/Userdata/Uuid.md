@@ -29,7 +29,7 @@ uuid:isNil()
 ```
 <code>Server-Only</code> <br></br>
 
-Returns whether the uuid is nil {00000000-0000-0000-0000-000000000000}.
+Returns whether the uuid is nil `{00000000-0000-0000-0000-000000000000}`.
 
 <strong>Arguments:</strong> <br></br>
 

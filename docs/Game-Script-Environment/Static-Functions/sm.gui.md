@@ -585,7 +585,7 @@ sm.gui.createWidget()
 :::caution warning
 This function is removed and does nothing. Do not use!
 
-Use [createGuiFromLayout](#createGuiFromLayout) instead.
+Use [createGuiFromLayout](#createguifromlayout) instead.
 :::
 
 ---

@@ -8,7 +8,7 @@ slug: /
 
 ### Introduction
 
-👋Welcome! <br></br>
+Welcome! 👋<br></br>
 This is an improved version of the Scrap Mechanic Lua API Reference at https://scrapmechanic.com/api/index.html. <br></br>
 
 A compiled version of this website will always be available [here](https://github.com/niknal357/sm-docu). <br></br>

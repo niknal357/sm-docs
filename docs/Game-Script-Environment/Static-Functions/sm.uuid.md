@@ -56,7 +56,7 @@ Generates a random (version 4) uuid.
 sm.uuid.getNil()
 ```
 
-Creates a nil uuid {00000000-0000-0000-0000-000000000000}.
+Creates a nil uuid `{00000000-0000-0000-0000-000000000000}`.
 
 <strong>Returns:</strong> <br></br>
 

@@ -17,7 +17,7 @@ To create one, use [sm.quat.new](#new).
 
 :::caution warning
 It is uncommon to modify individual X, Y, Z, W components directly. <br></br>
-To create a new quaternion, consider using [sm.vec3.getRotation](/docs/Game-Script-Environment/Static-Functions/sm.vec3#getRotation).
+To create a new quaternion, consider using [sm.vec3.getRotation](/docs/Game-Script-Environment/Static-Functions/sm.vec3#getrotation).
 :::
 
 ## Functions

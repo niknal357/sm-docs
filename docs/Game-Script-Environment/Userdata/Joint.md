@@ -173,7 +173,7 @@ bearing:getAngularVelocity()
 
 Returns the bearing's angular velocity.
 
-This velocity can be set using [setMotorVelocity](#setMotorVelocity) or [setTargetAngle](#setTargetAngle).
+This velocity can be set using [setMotorVelocity](#setmotorvelocity) or [setTargetAngle](#settargetangle).
 
 <strong>Arguments:</strong> <br></br>
 
@@ -193,7 +193,7 @@ bearing:getAppliedImpulse()
 
 Returns the bearing's applied impulse.
 
-The applied impulse can be set using [setMotorVelocity](#setMotorVelocity) or [setTargetAngle](#setTargetAngle).
+The applied impulse can be set using [setMotorVelocity](#setmotorvelocity) or [setTargetAngle](#settargetangle).
 
 <strong>Arguments:</strong> <br></br>
 
@@ -548,7 +548,7 @@ Sets the motor velocity for a bearing. The bearing will try to maintain the targ
 In Scrap Mechanic, the Gas Engine increases both velocity and impulse with every gear. <br></br>
 The Electric Engine increases velocity, but maintains the same impulse for every gear, making it sturdier.
 
-This method cancels the effects of [setTargetAngle](#setTargetAngle).
+This method cancels the effects of [setTargetAngle](#settargetangle).
 
 <strong>Arguments:</strong> <br></br>
 
@@ -569,7 +569,7 @@ Sets the target angle for a bearing. The bearing will try to reach the target an
 The target angle is set to range between <code>-math.pi</code> and <code>+math.pi</code>. <br></br>
 The bearing will always try to rotate in the direction closest to the target angle.
 
-This method cancels the effects of [setMotorVelocity](#setMotorVelocity).
+This method cancels the effects of [setMotorVelocity](#setmotorvelocity).
 
 <strong>Arguments:</strong> <br></br>
 

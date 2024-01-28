@@ -104,7 +104,7 @@ During a frame update, graphics, animations and effects are updated.
 :::caution warning
 Because of how frequent this event is called, the game's frame rate is greatly affected by the amount of code executed here.
 
-For any non-graphics related code, consider using [client_onFixedUpdate](#onFixedUpdate) instead.
+For any non-graphics related code, consider using [client_onFixedUpdate](#onfixedupdate) instead.
 
 If the event is not in use, consider removing it from the script (Event callbacks that are not implemented will not be called).
 :::

@@ -15,7 +15,7 @@ In first-person view the camera is located inside the player's head, whereas in 
 
 This library can only be used on the [client](/docs/#client).
 
-[Constants](/docs/Game-Script-Environment/Constants#smcamerastates)
+[Constants](/docs/Game-Script-Environment/Constants#smcamerastate)
 
 ## Functions
 
@@ -63,7 +63,7 @@ sm.camera.getCameraState()
 ```
 <code>Client-Only</code> <br></br>
 
-Returns the camera's control state, see [sm.camera.states](/docs/Game-Script-Environment/Constants#smcamerastates).
+Returns the camera's control state, see [sm.camera.states](/docs/Game-Script-Environment/Constants#smcamerastate).
 
 <strong>Returns:</strong> <br></br>
 
@@ -229,7 +229,7 @@ sm.camera.setCameraState( state )
 ```
 <code>Client-Only</code> <br></br>
 
-Sets the camera's control state, see [sm.camera.states](/docs/Game-Script-Environment/Constants#smcamerastates).
+Sets the camera's control state, see [sm.camera.states](/docs/Game-Script-Environment/Constants#smcamerastate).
 
 <strong>Arguments:</strong> <br></br>
 

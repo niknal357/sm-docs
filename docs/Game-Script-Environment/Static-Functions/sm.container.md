@@ -37,7 +37,7 @@ sm.container.beginTransaction()
 Starts a new transaction shared across all containers. <br></br>
 A transaction is a collection of all changes of container items that will be collected and processed.
 
-A transaction must be ended with [sm.container.endTransaction](#endTransaction).
+A transaction must be ended with [sm.container.endTransaction](#endtransaction).
 
 <strong>Returns:</strong> <br></br>
 

@@ -190,7 +190,7 @@ function ShapeClass.server_onSledgehammer( self )
 end
 ```
 :::caution deprecated
-Use [onMelee](#onMelee) instead.
+Use [onMelee](#onmelee) instead.
 :::
 
 ---

@@ -374,7 +374,7 @@ AreaTrigger:setShapeDetection( detectShapes )
 
 Shape detection is off by default.
 When set to true the area trigger can calculate which shapes are inside of the
-trigger area with a call to [AreaTrigger:getShapes()](#getShapes)
+trigger area with a call to [AreaTrigger:getShapes()](#getshapes)
 
 <strong>Arguments:</strong> <br></br>
 

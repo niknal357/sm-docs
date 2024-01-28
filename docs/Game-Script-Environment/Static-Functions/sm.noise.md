@@ -144,7 +144,7 @@ Standard <strong>deviation</strong> affects the dispersion of generated values f
 sm.noise.randomRange( a, b )
 ```
 
-Returns a random number N such that <code>a <= N <= b</code>.
+Returns a random number N such that <code>a \<\= N \<\= b</code>.
 
 <strong>Arguments:</strong> <br></br>
 

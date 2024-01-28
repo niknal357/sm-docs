@@ -14,7 +14,7 @@ A userdata object representing a <strong>raycast result</strong>.
 A raycast result is a collection of data received from a raycast. <br></br>
 The result contains information about where the raycast travelled and what objects it eventually hit.
 
-Raycast results are the result of functions such as [sm.physics.raycast](/docs/Game-Script-Environment/Static-Functions/sm.physics#raycast), [sm.physics.distanceRaycast](/docs/Game-Script-Environment/Static-Functions/sm.physics#distanceRaycast) and [sm.localPlayer.getRaycast](/docs/Game-Script-Environment/Static-Functions/sm.localPlayer#getRaycast).
+Raycast results are the result of functions such as [sm.physics.raycast](/docs/Game-Script-Environment/Static-Functions/sm.physics#raycast), [sm.physics.distanceRaycast](/docs/Game-Script-Environment/Static-Functions/sm.physics#distanceraycast) and [sm.localPlayer.getRaycast](/docs/Game-Script-Environment/Static-Functions/sm.localPlayer#getraycast).
 
 <strong>Values:</strong>
 
