@@ -42,7 +42,7 @@ Adds a named sphere debug draw.
 
 - <code>name</code> [<strong> string </strong>]: The debug sphere name.
 - <code>center</code> [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The center position.
-- <code>radius</code> [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Vec3"> Vec3 </a> </strong>]: The radius. Defaults to 0.125.
+- <code>radius</code> [<strong> number </strong>]: The radius. Defaults to 0.125.
 - <code>color</code> [<strong> <a href="/docs/Terrain-Script-Environment/Userdata/Color"> Color </a> </strong>]: The color. Defaults to white.
 
 ---
