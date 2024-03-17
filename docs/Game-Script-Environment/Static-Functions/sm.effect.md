@@ -36,7 +36,7 @@ This results in far more accurate positioning of effects that are supposed to st
 <strong>Arguments:</strong> <br></br>
 
 - <code>name</code> [<strong> string </strong>]: The effect name.
-- <code>host</code> [<strong> interactable/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a>/ nil </strong>]: The object that the effect is attached to.
+- <code>host</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a>/ nil </strong>]: The object that the effect is attached to.
 - <code>bone</code> [<strong> string </strong>]: The bone name, if attaching to an interactable or character. Defaults to none.
 
 <strong>Returns:</strong> <br></br>
@@ -126,7 +126,7 @@ Please use [createEffect](#createeffect) for looping effects.
 <strong>Arguments:</strong> <br></br>
 
 - <code>name</code> [<strong> string </strong>]: The effect name.
-- <code>host</code> [<strong> interactable/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/character </strong>]: The object that the effect is attached to.
+- <code>host</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Interactable"> Interactable </a>/<a href="/docs/Game-Script-Environment/Userdata/Harvestable"> Harvestable </a>/<a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a> </strong>]: The object that the effect is attached to.
 - <code>bone</code> [<strong> string </strong>]: The bone name, if attaching to an interactable or character. Defaults to none.
 - <code>parameters</code> [<strong> table </strong>]: The table containing effect parameters. Defaults to none.
 
