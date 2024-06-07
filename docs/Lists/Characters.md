@@ -9,7 +9,7 @@ sidebar-label: 'Characters'
 
 ### Characters
 
-Listed below are all characters that can be used with functions like [sm.character.createCharacter](/docs/Game-Script-Environment/Static-Functions/sm.character#createcharacter).
+Listed below are all characters that can be used with functions like [sm.unit.createUnit](/docs/Game-Script-Environment/Static-Functions/sm.unit#createunit).
 A (potentially more complete) list of characters can be found [here](https://github.com/Vajdani/sm_docs/blob/master/Lists/Characters.txt).
 
 ### Default
