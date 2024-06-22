@@ -640,10 +640,6 @@ Flags used with the steering component.
 }
 ```
 
----
-
-### sm.interactable.steering
-	
 A table of available interactable types.
 
 ```lua title="Table Contents"

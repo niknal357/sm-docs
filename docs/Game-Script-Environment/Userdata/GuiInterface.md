@@ -542,7 +542,7 @@ Sets the host for a world gui.
 
 - <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
 - <code>widget</code> [<strong> string </strong>]: The name of the widget.
-- <code>host</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/character </strong>]: The GUI host.
+- <code>host</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/Shape"> Shape </a>/ <a href="/docs/Game-Script-Environment/Userdata/Character"> Character </a></strong>]: The GUI host.
 - <code>joint</code> [<strong> string </strong>]: The joint (optional).
 
 ---
