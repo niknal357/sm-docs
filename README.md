@@ -29,14 +29,14 @@ This command generates static content into the `build` directory and can be serv
 Using SSH:
 
 ```
-$USE_SSH=true
+$env:USE_SSH = true
 npm run deploy
 ```
 
 Not using SSH:
 
 ```
-$GIT_USER=<Your GitHub username>
+$env:GIT_USER = <Your GitHub username>
 npm run deploy
 ```
 
