@@ -9,7 +9,7 @@ sidebar-label: 'Storage'
 
 ## Storage
 
-**Associated namespace:** [sm.storage](/docs/Game-Script-Environment/Userdata/Storage)
+**Associated namespace:** [sm.storage](/docs/Game-Script-Environment/Static-Functions/sm.storage)
 
 A userdata object representing a <strong>storage</strong> object.
 
