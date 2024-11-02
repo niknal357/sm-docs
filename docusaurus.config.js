@@ -2,7 +2,7 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -59,14 +59,15 @@ const config = {
           src: 'img/logo.png',
         },
         items: [
-          { to: '/docs', label: 'SM Lua Documentation', position: 'left' }
+          { to: '/docs', label: 'Lua API Documentation', position: 'left' },
+          { to: '/contentcompilerdocs', label: 'Content Compiler Documentation', position: 'left' },
         ],
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         // Additional languages can be added here.
-        additionalLanguages: ['lua'],
+        additionalLanguages: ['lua', 'json'],
       }
     }),
   themes: [
@@ -76,7 +77,35 @@ const config = {
         hashed: true,
         removeDefaultStopWordFilter: true,
         explicitSearchResultPath: true,
+        docsRouteBasePath: ["/docs", "/contentcompilerdocs"],
+        docsDir: ["docs", "contentcompilerdocs"],
       }),
+    ],
+    // [
+    //   require.resolve('@docusaurus/theme-classic'),
+    //   {
+    //     customCss: require.resolve('./src/css/custom.css'),
+    //   }
+    // ],
+  ],
+  plugins: [
+    // [
+    //   require.resolve('@docusaurus/plugin-content-docs'),
+    //   {
+    //     id: 'docs',
+    //     path: 'docs',
+    //     routeBasePath: 'docs',
+    //     sidebarPath: require.resolve('./sidebars.js'),
+    //   }
+    // ],
+    [
+      require.resolve('@docusaurus/plugin-content-docs'),
+      {
+        id: 'contentcompilerdocs',
+        path: 'contentcompilerdocs',
+        routeBasePath: 'contentcompilerdocs',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }
     ],
   ],
 };

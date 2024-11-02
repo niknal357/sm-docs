@@ -19,7 +19,15 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs">
-            Lua Documentation
+            Lua API Documentation
+          </Link>
+        </div>
+        <br />
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/contentcompilerdocs">
+            Content Compiler Documentation
           </Link>
         </div>
       </div>
