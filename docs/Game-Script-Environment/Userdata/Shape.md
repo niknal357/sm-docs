@@ -76,6 +76,11 @@ A userdata object representing a <strong>shape</strong> in the game.
 	- <code>Get</code>: Whether the shape is a block or not.
 
 
+- <code>isWedge</code> [<strong> bool </strong>] <br></br>
+
+	- <code>Get</code>: Whether the shape is a wedge or not.
+
+
 - <code>liftable</code> [<strong> bool </strong>] <br></br>
 
 	- <code>Get</code>: Whether the shape is liftable or not.
