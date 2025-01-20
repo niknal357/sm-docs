@@ -498,17 +498,35 @@ Sets a callback to be called when a grid item is changed.
 ### setGridMouseFocusCallback
 
 ```lua
-guiInterface:setGridMouseFocusCallback( buttonName, callback )
+guiInterface:setGridMouseFocusCallback(widgetName, callbackName, gridName)
 ```
 <code>Client-Only</code> <br></br>
 
-Sets a callback to be called when a grid widget gets mouse focus.
+Sets a callback on a widget in a grid, to be called whenever the mouse focus of that widget changes.
 
 <strong>Arguments:</strong> <br></br>
 
-- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface"> GuiInterface </a> </strong>]: The guiInterface.
-- <code>buttonName</code> [<strong> string </strong>]: The name of the button.
-- <code>callback</code> [<strong> string </strong>]: The name of the callback function.
+- <code>guiInterface</code> [<strong> <a href="/docs/Game-Script-Environment/Userdata/GuiInterface">GuiInterface</a> </strong>]: The guiInterface.
+- <code>widgetName</code> [<strong> string </strong>]: The name of the widget in the grid.
+- <code>callbackName</code> [<strong> string </strong>]: The name of the callback method to call on the script instance that is setting the callback (self).
+- <code>gridName</code> [<strong> string </strong>]: The name of the grid (e.g., the name passed to createGridFromJson). Omitting this argument is equivalent to passing an empty string, but this may result in the callback not working properly.
+
+<strong>Note:</strong> No errors or warnings are generated if the grid or widget names are incorrect, which can make debugging difficult.
+
+<strong>Callback Signature:</strong>
+
+```lua
+callback(self, widgetName, gridIndex, gridItemData, isHoverInto, gridName)
+```
+
+<strong>Callback Arguments:</strong>
+
+- <code>self</code> [<strong> table </strong>]: The script instance (self).
+- <code>widgetName</code> [<strong> string </strong>]: The name of the widget whose mouse focus has changed.
+- <code>gridIndex</code> [<strong> int </strong>]: The index of the widget in the grid.
+- <code>gridItemData</code> [<strong> table </strong>]: The data table that was set to the widget with <code>setGridItem</code>.
+- <code>isHoverInto</code> [<strong> bool </strong>]: True if the mouse was moved into the widget, false if it was moved out.
+- <code>gridName</code> [<strong> string </strong>]: The name of the grid containing the widget.
 
 ---
 

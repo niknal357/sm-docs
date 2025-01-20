@@ -12,4 +12,4 @@ The Scrap Mechanic Content Compiler is a program found in the Scrap Mechanic Rel
 "C:\Program Files (x86)\Steam\steamapps\common\Scrap Mechanic\Release\ContentCompiler.exe" on windows. <br></br>
 It is used by the mod tool to generate part icons for mods, but it can do a bit more than that! <br></br>
 
-This documentation was writted by **Crackx**. I have not verified the information in this section myself. <br></br>
+This documentation was writted by **Crackx** (@crackx02 on discord). <br></br>
